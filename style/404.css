@@ -6,6 +6,20 @@ body {
     height: 100vh;
 }
 
+.floatBackBtn {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+	background-color:white;
+	color:black;
+    padding: 15px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -16,7 +30,8 @@ body {
 .mainAnn {
     padding: 20px;
     display: inline-block;
-    background-color: black;
+    background-color:#191919;
+    box-shadow: 2px 2px 3px #000000;
     box-sizing: border-box;
     border-radius: 25px;
     border: 3px;

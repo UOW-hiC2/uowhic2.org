@@ -1,10 +1,22 @@
 {
     "events" : [
         {
+            "name" : "Q/A with Industry Professionals",
+            "about" : "Introduction to UoW hiC2 and a QnA with Google, Amazon, & Vimy regarding CyberSecurity, Cryptography and ",
+            "link" : "https://uowhic2.org/event",
+            "poster" : "https://uowhic2.org/file/hic2_poster.mp4",
+            "start-time" : "2021-09-02T07:00:00.000Z",
+            "end-time" : "2021-09-02T08:00:00.000Z",
+            "schedulled" : true
+        },
+        {
             "name" : "Capture the Flag!",
             "about" : "",
-            "start-time" : "",
-            "end-time" : ""
+            "link" : "",
+            "poster": "",
+            "start-time" : "TBA",
+            "end-time" : "TBA",
+            "schedulled" : false
         }
     ]
 }

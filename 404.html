@@ -3,46 +3,71 @@
     <head>
         <!-- meta data -->
         <meta charset="UTF-8">
+        <!-- For Development Purposes -->
+        <!-- <meta http-equiv="refresh" content="10" /> -->
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography. The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. This Hub is for UOW students and running by UOW students." />
-
+        <meta name="description" content="University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography" />
+    
         <meta name="keywords" content="Security, Club, Cryptography, Cybersecurity, UoW" />
         <meta property="og:title" content="UoW's hiC2 | UNICLUB"/>
         <meta name="og:image" content="https://uowhic2.org/logo/hic2.png" />
         <meta name="og:url" content="https://uowhic2.org" />
-        <meta property="og:description" content="University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography"/>
-
+        <meta property="og:description" content="University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography. The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. This Hub is for UOW students and running by UOW students."/>
+    
         <title>UoW's Hub for the Institute of Cybersecurity and Cryptography | UNICLUB</title>
-
-        <link rel = "icon" type = "/image/png" href = "/logo/hic2.png">
-        <link rel = "stylesheet" href="/style/404.css">
+    
+        <link rel = "icon" type = "image/png" href = "/logo/hic2.png">
+        <link rel = "stylesheet" href="/style/main.css">
     </head>
     <body>
-        <div class="container">
-            <div align="center" class="mainAnn">
-            <img width="200" src="/logo/hic2.png" style="border-radius: 25px;"/>
-            <div style="height: 50%">
-                <h1 style="color: white;">
-                    University of Wollongong's 
-                    <br>
-                    Hub for the Institute of Cybersecurity and Cryptography
-                </h1>
-                <h1 style="color: red;">
-                    Page Not Found, 404.. See you on the other side!
-                </h1>
-                <a href="mailto:ask@uowhic2.org">
-                    <div class="innAnn">
-                        <h2>
-                            For more information, email us at ask@uowhic2.org
-                        </h2>
-                    </div>
-                </a>
+
+        <div class="overlay"></div>
+
+        <div class="topLogos">
+            <div class="logos">
+                <img src="/logo/UoWLogo.svg"/>
+            </div>
+            <div class="logos">
+                <img src="/logo/UoWClub.svg"/>
+            </div>
+            <div class="logos">
+                <img src="/logo/SSAF.svg"/>
             </div>
         </div>
+
+        <div class="container">
+            <div align="center" class="main">
+                <div class="hiC2">
+                    <img src="/logo/hic2.svg"/>
+                </div>
+                <div class="content">
+                    <h1>
+                        Welcome to University of Wollongong's
+                    </h1>
+                    <h2>
+                        Hub for the Institute of Cybersecurity and Cryptography
+                    </h2>
+                </div>
+                <div class = "info">
+                    <div class="inner"><h2>Page Not Found, 404.. See you on the other side!</h2></div>
+                </div>
+            </div>
         </div>
+
         <a href="/" class="floatBackBtn">
             <img src="/icon/home.svg"/>
         </a>
+
+        <script type = "text/javascript">
+            setTimeout(() => {
+                window.location.replace("/");
+            }, 5000);
+        </script>
+        
     </body>
+    <footer>
+        Copyright © 2021 UoW's Hub for the Institute of Cybersecurity and Cryptography | UNICLUB (uowhic2.org). All Rights Reserved
+    </footer>
 </html>

@@ -194,6 +194,11 @@ footer {
         height: 18vh;
         width: 18vh;
     }
+
+    p {
+        font-size: 12px;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {

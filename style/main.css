@@ -195,3 +195,26 @@ footer {
         width: 18vh;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 5px;
+    }
+
+    .main {
+        margin: 10%;
+    }
+
+}

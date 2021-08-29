@@ -3,5 +3,6 @@
 }
 
 .ann {
-    display: none;
+    visibility: hidden;
+    margin-right: 100%;
 }

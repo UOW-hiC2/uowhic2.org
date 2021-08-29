@@ -172,7 +172,7 @@ footer {
 }
 
 .fix-info {
-    position: fixed;
+    position: absolute;
 
     top: 0%;
     left: 0%;
@@ -190,9 +190,9 @@ footer {
     box-sizing: border-box;
     border-radius: 50px;
     color: white;
-    margin: 0%;
 
-    margin: 12.5vh 5vh 12.5vh 5vh;
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
     
     height: 75%;
 
@@ -212,9 +212,11 @@ footer {
     }
 
     .info-about {
-        margin: 2vh;
-        height: 96vh;
+        height: 96%;
         padding: 1vh;
+
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 }
 

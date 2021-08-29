@@ -10,7 +10,13 @@
             "name" : "UniClubs Website",
             "icon" : "",
             "link" : "https://clubs.uow.edu.au/hub-for-the-institute-of-cybersecurity-and-cryptography/",
-            "notes" : "Join us UoW's UniClub"
+            "notes" : "Join us via UoW's UniClub"
+        },
+        {
+            "name" : "GitHub",
+            "icon" : "/icon/github.ico",
+            "link" : "https://github.com/UOW-hiC2",
+            "notes" : "Contribute on our GitHub" 
         }
     ] 
 }

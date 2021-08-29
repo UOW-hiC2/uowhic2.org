@@ -1,4 +1,7 @@
 body {
+    font-family: Arial;
+    color: white;
+
     background-image: url("/image/uow-background.jpg");
 
     /* Height */
@@ -15,10 +18,19 @@ img {
     height: 100%;
 }
 
-/* .main {
-    z-index: 1;
-    background-color: white;
-} */
+footer {    
+    height: 10px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    bottom: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .overlay {
     z-index: -1;
@@ -62,25 +74,37 @@ img {
 }
 
 .hiC2 {
-    background-color: whitesmoke;
-    height: 50px;
+    background-color: 	rgb(245, 245, 245, 1);
+    height: 23vh;
     width: fit-content;
+    border-radius: 50px;
+    box-shadow: 3px 3px 4px #999;
     /* width: auto; */
 }
 
-footer {    
-    height: 10px;
-    position: fixed;
-    display: flex;
-    justify-content: center;
+.main {
+    /* top: 100%; */
+    /* display: flex;
+    justify-content: space-between; */
     align-items: center;
-    text-align: center;
+    /* background-color: rgba(0, 255, 0, 0.5); */
+    /* box-sizing: border-box; */
+}
 
-    width: 100%;
-    bottom: 2.5%;
-    left: 50%;
-    transform: translateX(-50%);
+.content {
+    width: fit-content;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 50px;
+}
 
-    color: white;
-    font-family: Arial;
+.info {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media {
+
 }

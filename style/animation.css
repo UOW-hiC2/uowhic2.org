@@ -2,7 +2,11 @@
     margin-right: 50%;
 }
 
+.ann-none {
+    pointer-events: none;
+}
+
 .ann {
-    visibility: hidden;
+    opacity:0;
     margin-right: 100%;
 }

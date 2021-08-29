@@ -81,7 +81,11 @@
         </script>
         
     </body>
-    <footer>
-        Copyright © 2021 UoW's Hub for the Institute of Cybersecurity and Cryptography | UNICLUB (uowhic2.org). All Rights Reserved
-    </footer>
+
+    <footer id="footer"></footer>
+
+    <script text = "type/javascript">
+        document.getElementById("footer").innerHTML = `Copyright © ${new Date().getFullYear()} UoW's Hub for the Institute of Cybersecurity and Cryptography | UNICLUB (uowhic2.org). All Rights Reserved`
+    </script>
+    
 </html>

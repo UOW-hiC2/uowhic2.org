@@ -191,15 +191,30 @@ footer {
     border-radius: 50px;
     color: white;
     margin: 0%;
-    margin: 12.5%;
+
+    margin: 12.5vh 5vh 12.5vh 5vh;
     
     height: 75%;
+
+    padding: 2vh;
+
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 
 @media only screen and (max-width: 1000px) {
     .clearOnMobile {
         display: none;
+    }
+
+    .info-about {
+        margin: 2vh;
+        height: 96vh;
+        padding: 1vh;
     }
 }
 

@@ -2,13 +2,13 @@
     "socials" : [
         {
             "name" : "Facebook",
-            "icon" : "/icon/facebook.ico",
+            "icon" : "/icon/facebook.svg",
             "link" : "https://www.facebook.com/UOWhiC2/",
             "notes" : "Follow us on Facebook!"
         },
         {
-            "name" : "UNICLUBS Website",
-            "icon" : "/logo/UoWClub.svg",
+            "name" : "Uniclubs",
+            "icon" : "/icon/Uniclubs.svg",
             "link" : "https://clubs.uow.edu.au/hub-for-the-institute-of-cybersecurity-and-cryptography/",
             "notes" : "Join us via UoW's UniClub"
         },

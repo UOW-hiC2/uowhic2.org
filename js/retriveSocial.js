@@ -25,11 +25,13 @@ function show(data) {
     for (let social of data.socials) {
         tab +=  
         `
-        <div class="inner">
+        <div class="inner" style="cursor: pointer;" onclick="window.location='${social.link}';">
             <div class="paddingIcon">
                 <image src="${social.icon}">
             </div>
-            <h3>${social.name}</h3>
+            <span class="clearOnMobile">
+                <h3>${social.name}</h3>
+            </span>
         </div>
         `;
     }

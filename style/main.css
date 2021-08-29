@@ -20,7 +20,9 @@ img {
 }
 
 a {
+    color: white;
     text-decoration: none;
+    font-family: 'Arial';
 }
 
 footer {    
@@ -134,7 +136,7 @@ footer {
 
 .floatBackBtn {
     z-index: 3;
-    
+
     position: fixed;
     top: 40px;
     left: 40px;

@@ -51,7 +51,10 @@
                     </h2>
                 </div>
                 <div class = "info">
-                    <div class="inner"><h2>Page Not Found, 404.. See you on the other side!</h2></div>
+                    <div id="status" class="inner"><h2>Page Not Found, 404.. See you on the other side!</h2></div>
+                </div>
+                <div class = "info">
+                    <div id="time" class="inner"><h3>10</h3></div>
                 </div>
             </div>
         </div>
@@ -61,9 +64,20 @@
         </a>
 
         <script type = "text/javascript">
-            setTimeout(() => {
-                window.location.replace("/");
-            }, 10000);
+            if (window.location.pathname == "/coming-soon.html") {
+                document.getElementById("status").innerHTML = `<h2>Coming Soon</h2>`;
+            }
+        </script>
+
+        <script type = "text/javascript">
+            var a = 10;
+            setInterval(() => {
+                a = a - 1;
+                document.getElementById("time").innerHTML = `<h3>${a}</h3>`;
+                if ( a == 0) {
+                    window.location.replace("/");
+                }
+            }, 1000);
         </script>
         
     </body>

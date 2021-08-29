@@ -1,5 +1,5 @@
 {
-    "social" : [
+    "socials" : [
         {
             "name" : "Facebook",
             "icon" : "/icon/facebook.ico",
@@ -7,22 +7,22 @@
             "notes" : "Follow us on Facebook!"
         },
         {
-            "name" : "UniClubs Website",
-            "icon" : "",
+            "name" : "UNICLUBS Website",
+            "icon" : "/logo/UoWClub.svg",
             "link" : "https://clubs.uow.edu.au/hub-for-the-institute-of-cybersecurity-and-cryptography/",
             "notes" : "Join us via UoW's UniClub"
         },
         {
-            "name" : "GitHub",
-            "icon" : "/icon/github.ico",
-            "link" : "https://github.com/UOW-hiC2",
-            "notes" : "Contribute on our GitHub" 
-        },
-        {
             "name" : "ask@uowhic2.org",
-            "icon" : "",
+            "icon" : "/icon/email.svg",
             "link" : "mailto:ask@uowhic2.org",
             "notes" : "Email us for more info" 
+        },
+        {
+            "name" : "Discord",
+            "icon" : "/icon/discord.svg",
+            "link" : "https://discord.com/channels/836599505645338625",
+            "notes" : "Register via Email or Contact Us"
         }
     ] 
 }

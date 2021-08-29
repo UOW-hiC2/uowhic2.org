@@ -54,15 +54,15 @@
                     </h2>
                 </div>
                 <div class = "info">
-                    <button onclick="aboutButtonClick()" id="about" class="inner padding">
+                    <button onclick="buttonClick('about')" id="about" class="inner padding">
                         <h3 style="color: white;">About</h3>
                     </button>
                     
-                    <button id="contact" class="inner padding">
+                    <button onclick="buttonClick('contact')" id="contact" class="inner padding">
                         <h3 style="color: white;">Contact Us</h3>
                     </button>
 
-                    <button id="events" class="inner padding">
+                    <button onclick="buttonClick('event')" id="events" class="inner padding">
                         <h3 style="color: white;">Events</h3>
                     </button>
 
@@ -70,16 +70,32 @@
             </div>
         </div>
 
-        <div id="fix-ann" 
+        <div id="fix-about" 
              style="cursor: pointer;" 
-             onclick="aboutButtonClick()"  
+             onclick="buttonClick('about')"  
              class="ann-none fix-info">
-            <div id="ann-about" class="ann info-about transform">
+            <div id="ann-about" class="ann info-contain info-about transform">
                 <!-- <h1>Test</h1> -->
             </div>
         </div>
-        <div id="ann-contact" class="ann info-contact transform"></div>
-        <div id="ann-events" class="ann info-events transform"></div>
+
+        <div id="fix-contact" 
+             style="cursor: pointer;" 
+             onclick="buttonClick('contact')" 
+             class="ann-none fix-info">
+            <div id="ann-contact" class="ann info-contain info-contact transform">
+                <!-- <h1>Test</h1> -->
+            </div>
+        </div>
+
+        <div id="fix-event" 
+             style="cursor: pointer;" 
+             onclick="buttonClick('event')" 
+             class="ann-none fix-info">
+            <div id="ann-event" class="ann info-contain info-event transform">
+                <!-- <h1>Test</h1> -->
+            </div>
+        </div>
 
         <div id="social" class="info social-media"></div>
     </body>

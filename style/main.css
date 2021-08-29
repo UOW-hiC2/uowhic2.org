@@ -42,11 +42,11 @@ footer {
 }
 
 .transform {
-    -webkit-transition: all 5s ease-in-out;  
-    -moz-transition: all 5s ease-in-out;  
-    -o-transition: all 5s ease-in-out;  
-    -ms-transition: all 5s ease-in-out;  
-    transition: all 5s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;  
+    -moz-transition: all 2s ease-in-out;  
+    -o-transition: all 2s ease-in-out;  
+    -ms-transition: all 2s ease-in-out;  
+    transition: all 2s ease-in-out;
 }
 
 .overlay {
@@ -185,7 +185,7 @@ footer {
     height: 100vh;
 }
 
-.info-about {
+.info-contain {
     background-color: rgb(32, 32, 32, 0.8);
     box-sizing: border-box;
     border-radius: 50px;
@@ -211,7 +211,7 @@ footer {
         display: none;
     }
 
-    .info-about {
+    .info-contain {
         height: 96%;
         padding: 1vh;
 

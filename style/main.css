@@ -1,3 +1,5 @@
+@import url(/style/animation.css);
+
 body {
     font-family: Arial;
     color: white;
@@ -37,6 +39,14 @@ footer {
     bottom: 2.5%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.transform {
+    -webkit-transition: all 2s ease-out;  
+    -moz-transition: all 2s ease-out;  
+    -o-transition: all 2s ease-out;  
+    -ms-transition: all 2s ease-out;  
+    transition: all 2s ease-out;
 }
 
 .overlay {
@@ -88,10 +98,6 @@ footer {
 }
 
 .main {
-    display: table;
-    margin: auto;
-    /* display: table;
-    margin: auto; */
     padding: 2%;
 }
 
@@ -165,6 +171,13 @@ footer {
     padding-right: 5%;
 }
 
+
+.info-about {
+    justify-content: space-between;
+    background-color: white;
+}
+
+
 @media only screen and (max-width: 1000px) {
     .clearOnMobile {
         display: none;
@@ -172,10 +185,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    .clearOnMobile {
-        display: none;
-    }
-
     .inner {
         padding: 2%;
         border-radius: 25px;

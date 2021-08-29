@@ -74,6 +74,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     width: 100%;
     bottom: 2.5%;
@@ -82,9 +83,4 @@ footer {
 
     color: white;
     font-family: Arial;
-    
-    /* clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px; */
 }

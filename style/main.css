@@ -88,28 +88,34 @@ footer {
 }
 
 .main {
-    width: fit-content;
+    display: table;
+    margin: auto;
+    /* display: table;
+    margin: auto; */
     padding: 2%;
 }
 
 .hiC2 {
     background-color: 	rgb(245, 245, 245, 1);
     height: 23vh;
-    width: fit-content;
+    width: 23vh;
+
     border-radius: 50px;
     box-shadow: 3px 3px 4px #999;
     /* width: auto; */
 }
 
 .content {
-    width: fit-content;
+    display: table;
+    margin: auto;
     border-color: white;
     border-width: 1px;
     border-radius: 50px;
 }
 
 .info {
-    width: fit-content;
+    display: table;
+    margin: auto;
     display: flex;
     width: 100%;
     justify-content: space-evenly;

@@ -1,6 +1,7 @@
 // api url
 const social_url = "/data/socials.json";
 const about_url = "/data/about.json";
+const event_url = "/data/events.json";
   
 // Defining async function
 async function getapi(url, show) {
@@ -10,7 +11,7 @@ async function getapi(url, show) {
     
     // Storing data in form of JSON
     var data = await response.json();
-    // console.log(data);
+    console.log(data);
 
     show(data);
 }
@@ -41,6 +42,11 @@ function about(data) {
     console.log("lol");
 }
 
+function eventFunc(data) {
+    console.log("lol");
+}
+
 // Calling that async function
 getapi(social_url, social);
 getapi(about_url, about);
+getapi(event_url, eventFunc);

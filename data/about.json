@@ -1,0 +1,29 @@
+{
+    "about" : {
+        "division" : "Institute of Cybersecurity and Cryptology",
+        "founded" : 2021,
+        "details" : "University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography. The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. This Hub is for UOW students and running by UOW students.",
+        "advisers" : [
+            {
+                "name" : "Prof. Ngoc Thuy Le"
+            },
+            {
+                "name" : "Dr. Pairat Thorncharoensri"
+            }
+        ],
+        "committee" : [
+            {
+                "name" : "Oscar Rodgers"
+            },
+            {
+                "name" : "Ivan Ezechial Suratno"
+            },
+            {
+                "name" : "Chrisy Mathews"
+            },
+            {
+                "name" : "Aayushi Kumar"
+            }
+        ]
+    }
+}

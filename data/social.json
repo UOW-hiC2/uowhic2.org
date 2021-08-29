@@ -17,6 +17,12 @@
             "icon" : "/icon/github.ico",
             "link" : "https://github.com/UOW-hiC2",
             "notes" : "Contribute on our GitHub" 
+        },
+        {
+            "name" : "Email",
+            "icon" : "",
+            "link" : "mailto:ask@uowhic2.org",
+            "notes" : "Email us for more info" 
         }
     ] 
 }

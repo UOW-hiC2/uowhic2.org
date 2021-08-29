@@ -1,8 +1,9 @@
 // api url
-const api_url = "/data/socials.json";
+const social_url = "/data/socials.json";
+const about_url = "/data/about.json";
   
 // Defining async function
-async function getapi(url) {
+async function getapi(url, show) {
     
     // Storing response
     const response = await fetch(url);
@@ -14,11 +15,8 @@ async function getapi(url) {
     show(data);
 }
 
-// Calling that async function
-getapi(api_url);
-
 // Function to define innerHTML for HTML table
-function show(data) {
+function social(data) {
     let tab = ``;
     
     // Loop to access all rows 
@@ -38,3 +36,11 @@ function show(data) {
     // Setting innerHTML as tab variable
     document.getElementById("social").innerHTML = tab;
 }
+
+function about(data) {
+    console.log("lol");
+}
+
+// Calling that async function
+getapi(social_url, social);
+getapi(about_url, about);

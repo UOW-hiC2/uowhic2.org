@@ -79,7 +79,7 @@ function eventFunc(data) {
             tab +=`
             <div class="event-inner-details">
                 <h2>${event.name}</h2>
-                <h2>${new Date().toLocaleString()}</h2>
+                <h2>${new Date(event["start-time"]).toLocaleString()}</h2>
                 <h3>${event.about}</h3>
                 <p class="event-p">${event.description}</p>
             `;

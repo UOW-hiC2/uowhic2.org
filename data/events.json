@@ -19,8 +19,8 @@
                 }
             ],
             "poster" : "https://uowhic2.org/file/1-poster-event.mp4",
-            "start-time" : "2021-09-02T07:00:00.000Z",
-            "end-time" : "2021-09-02T08:00:00.000Z",
+            "start-time" : 1630566000000,
+            "end-time" : 1630569600000,
             "schedulled" : true
         },
         {

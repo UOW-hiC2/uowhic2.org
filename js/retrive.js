@@ -78,13 +78,24 @@ function eventFunc(data) {
 
             tab +=`
             <div>
-                <h2>Q/A with Industry Professionals</h2>
-                <h3>Introduction to UoW hiC2 and a QnA with Google, Amazon, & Vimy regarding CyberSecurity, Cryptography and It's Job Opportunity</h3>
-                <button class="inner" onclick="window.location.href='https://uowhic2.org/event'">
-                    <h3>Zoom Link</h3>
-                </button>
-            </div>
+                <h2>${event.name}</h2>
+                <h2>${new Date().toLocaleString()}</h2>
+                <br>
+                <h3>${event.about}</h3>
+                <p class="event-p">${event.description}</p>
             `;
+
+            console.log(event.links);
+            tab +=`<div>`
+            for (let link of event.links) {
+                tab +=`
+                    <button class="inner" onclick="window.location.href='${link.uri}'">
+                        <h3>${link.name}</h3>
+                    </button>
+                `
+            }
+            tab += `</div>`
+            tab += `</div>`
         }
     }
 

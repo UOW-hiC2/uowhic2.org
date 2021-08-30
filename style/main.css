@@ -225,6 +225,9 @@ button {
     text-align: justify;
 
     height: 80%;
+
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .event-poster {
@@ -249,10 +252,6 @@ button {
 
     .event-poster{
         height: 60%;
-    }
-
-    .event-p {
-        display: none;
     }
 }
 
@@ -284,6 +283,13 @@ button {
         bottom: 15%;
     }
 
+    .event-poster {
+        height: 40%;
+    }
+
+    .con-events {
+        flex-wrap: wrap;
+    }
 
 }
 

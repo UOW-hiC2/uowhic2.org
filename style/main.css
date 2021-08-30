@@ -216,6 +216,22 @@ button {
     
 }
 
+.con-events {
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+
+    text-align: justify;
+
+    height: 80%;
+}
+
+video {
+    height: 90%;
+    object-fit: fill;
+    border-radius: 50px;
+    margin: 5%;
+}
 
 @media only screen and (max-width: 1000px) {
     .clearOnMobile {

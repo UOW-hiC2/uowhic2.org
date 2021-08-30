@@ -1,6 +1,8 @@
 @import url(/style/animation.css);
 
 body {
+    overflow: hidden;
+    
     font-family: Arial;
     color: white;
     text-align: center;

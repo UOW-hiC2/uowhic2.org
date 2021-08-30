@@ -87,7 +87,7 @@ button {
     /* border-radius: 25%; */
     border-radius: 50px;
     box-sizing: border-box;
-    border-color: white;
+    border-color: rgb(12, 11, 11);
     background-color: white;
 }
 
@@ -134,7 +134,7 @@ button {
 
 .social-media {
     position: fixed;
-    bottom: 15%;
+    bottom: 20%;
     height: 20px;
 }
 
@@ -145,8 +145,8 @@ button {
 
     padding-left: 5%;
     padding-right: 5%;
-    background-color: black;
-    border-radius: 50px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
     margin-top: 3%;
 }
 
@@ -190,6 +190,7 @@ button {
     bottom: 0%;
     right: 0%;
 
+
     z-index: 4;
 
     width: 100%;
@@ -197,7 +198,7 @@ button {
 }
 
 .info-contain {
-    background-color: rgb(32, 32, 32, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     box-sizing: border-box;
     border-radius: 50px;
     color: white;
@@ -279,6 +280,11 @@ button {
         font-size: 12px;
     }
 
+    .social-media {
+        bottom: 15%;
+    }
+
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -302,4 +308,23 @@ button {
         margin: 10%;
     }
 
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        height: 0%;
+        width: 0%;
+    }
+
+    to{
+        opacity: 1;
+        height: 23vh;
+        width: 23vh;
+    }
+}
+
+
+.hiC2 {
+    animation: fadeIn 1s; 
 }

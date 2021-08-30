@@ -12,6 +12,10 @@
                 {
                     "name" : "GCal",
                     "uri" : ""
+                },
+                {
+                    "name" : "ICS Calender",
+                    "uri" : "/file/1-calendar-event.ics"
                 }
             ],
             "poster" : "https://uowhic2.org/file/1-poster-event.mp4",

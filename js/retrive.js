@@ -88,9 +88,9 @@ function eventFunc(data) {
             tab +=`<div class="warp-buttons">`
             for (let link of event.links) {
                 tab +=`
-                    <button class="inner event-button" onclick="window.location.href='${link.uri}'">
-                        <h3>${link.name}</h3>
-                    </button>
+                <button class="inner event-button" onclick="window.location.href='${link.uri}'">
+                    <h3>${link.name}</h3>
+                </button>
                 `
             }
             tab += `</div>`

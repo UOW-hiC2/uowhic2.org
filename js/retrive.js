@@ -39,8 +39,8 @@ function social(data) {
 }
 
 function about(data) {
-    let tab = `<h1>About Us</h1>`;
-    tab += `<div><h2>Coming Soon</h2></div>`
+    // let tab = `<h1>About Us</h1>`;
+    // tab += `<div><h2>Coming Soon</h2></div>`
     // Loop to access all rows 
     // for (let social of data.socials) {
     //     tab +=  
@@ -56,12 +56,16 @@ function about(data) {
     //     `;
     // }
     // Setting innerHTML as tab variable
-    document.getElementById("ann-about").innerHTML = tab;
+    // document.getElementById("ann-about").innerHTML = tab;
 }
 
 function eventFunc(data) {
-    let tab = `<h1>Events</h1>`;
-    tab += `<div><h2>Coming Soon</h2></div>`
+    // let tab = `<h1>Events</h1>`;
+    // tab += `
+    //     <div class="fix-fil">
+    //     </div>
+    // `
+    // tab += `<div><h2>Coming Soon</h2></div>`
     
     // Loop to access all rows 
     // for (let social of data.socials) {
@@ -78,7 +82,7 @@ function eventFunc(data) {
     //     `;
     // }
     // Setting innerHTML as tab variable
-    document.getElementById("ann-events").innerHTML = tab;
+    // document.getElementById("ann-events").innerHTML = tab;
 }
 
 // Calling that async function

@@ -3,7 +3,21 @@
         {
             "name" : "Q/A with Industry Professionals",
             "about" : "Introduction to UoW hiC2 and a QnA with Google, Amazon, & Vimy regarding CyberSecurity, Cryptography and It's Job Opportunity",
-            "link" : "https://uowhic2.org/event",
+            "description" : "Under supported by the Institute of Cybersecurity and Cryptography (iC2) and Uniclubs-SAF, the Hub for the Institute of Cybersecurity and Cryptography (hiC2) will organize a Webinar - Cybersecurity Career - Q&A with Industry Professionals. The primary purpose of this webinar is to have an opportunity for students to interact with experts, the people in charge of cybersecurity programs from Google, AWS, and VIMY, with different sectors from Manager, Technical, to Academia. You will listen to the stories from real people and a real career in cybersecurity.",
+            "links" : [
+                {
+                    "name" : "Zoom Link",
+                    "uri" : "https://uowhic2.org/event"
+                },
+                {
+                    "name" : "GCal",
+                    "uri" : "https://calendar.google.com/event?action=TEMPLATE&tmeid=NjNycTN2NW9uNDYwZjJqMGhlbjQzcTczYmEgaXZhbi5zdXJhdG5vQG0&tmsrc=ivan.suratno%40gmail.com"
+                },
+                {
+                    "name" : "ICS Calender",
+                    "uri" : "/file/1-calendar-event.ics"
+                }
+            ],
             "poster" : "https://uowhic2.org/file/1-poster-event.mp4",
             "start-time" : "2021-09-02T07:00:00.000Z",
             "end-time" : "2021-09-02T08:00:00.000Z",

@@ -77,6 +77,14 @@
             if (window.location.pathname == "/coming-soon.html") {
                 document.getElementById("status").innerHTML = `<h2>Coming Soon</h2>`;
             }
+
+            if (window.location.location == "/about") {
+                window.location.replace("/#about");
+            }else if (window.location.hash == "/contact") {
+                window.location.replace("/#contact")
+            }else if (window.location.hash == "/events") {
+                window.location.replace("/#events");
+            }
         </script>
 
         <script type = "text/javascript">

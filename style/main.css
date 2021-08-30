@@ -225,13 +225,32 @@ button {
     text-align: justify;
 
     height: 80%;
+
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
-video {
+.event-poster {
     height: 90%;
     object-fit: fill;
     border-radius: 50px;
     margin: 5%;
+}
+
+.event-inner-details {
+    min-width: 300px;
+}
+
+.warp-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.event-button {
+    margin-right: 2%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -247,8 +266,12 @@ video {
         margin-bottom: 2vh;
     }
 
-    video {
+    .event-poster{
         height: 60%;
+    }
+
+    .event-inner-details {
+        min-width: 200px;
     }
 }
 
@@ -280,7 +303,17 @@ video {
         bottom: 15%;
     }
 
+    .event-poster {
+        height: 40%;
+    }
 
+    .con-events {
+        flex-wrap: wrap;
+    }
+
+    .event-inner-details {
+        min-width: 100px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -297,13 +330,16 @@ video {
     }
 
     p {
-        font-size: 5px;
+        font-size: 8px;
     }
 
     .main {
         margin: 10%;
     }
 
+    .event-inner-details {
+        min-width: 50px;
+    }
 }
 
 @keyframes fadeIn{

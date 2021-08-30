@@ -40,7 +40,7 @@ function social(data) {
 
 function about(data) {
     let tab = `<h1>About Us</h1>`;
-    tab += `<div><h2>Comming Soon</h2></div>`
+    tab += `<div><h2>Coming Soon</h2></div>`
     // Loop to access all rows 
     // for (let social of data.socials) {
     //     tab +=  
@@ -61,7 +61,7 @@ function about(data) {
 
 function eventFunc(data) {
     let tab = `<h1>Events</h1>`;
-    tab += `<div><h2>Comming Soon</h2></div>`
+    tab += `<div><h2>Coming Soon</h2></div>`
     
     // Loop to access all rows 
     // for (let social of data.socials) {

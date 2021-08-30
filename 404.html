@@ -78,11 +78,11 @@
                 document.getElementById("status").innerHTML = `<h2>Coming Soon</h2>`;
             }
 
-            if (window.location.location == "/about") {
+            if (window.location.pathname == "/about") {
                 window.location.replace("/#about");
-            }else if (window.location.hash == "/contact") {
+            }else if (window.location.pathname == "/contact") {
                 window.location.replace("/#contact")
-            }else if (window.location.hash == "/events") {
+            }else if (window.location.pathname == "/events") {
                 window.location.replace("/#events");
             }
         </script>

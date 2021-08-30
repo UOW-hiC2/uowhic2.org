@@ -84,7 +84,7 @@ function eventFunc(data) {
                 <p class="event-p">${event.description}</p>
             `;
 
-            console.log(event.links);
+            // console.log(event.links);
             tab +=`<div class="warp-buttons">`
             for (let link of event.links) {
                 tab +=`

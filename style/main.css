@@ -200,9 +200,9 @@ footer {
 
     padding: 2vh;
 
-    display: flex;
+    /* display: flex;
     justify-content:center;
-    align-items: top;
+    align-items: center; */
     flex-wrap: wrap;
     
 }

@@ -43,6 +43,10 @@ footer {
     transform: translateX(-50%);
 }
 
+button {
+    color: white;
+}
+
 .transform {
     -webkit-transition: all 2s ease-in-out;  
     -moz-transition: all 2s ease-in-out;  
@@ -144,6 +148,11 @@ footer {
     background-color: black;
     border-radius: 50px;
     margin-top: 3%;
+}
+
+.inner:hover {
+    background-color: white;
+    color: black;
 }
 
 .paddingIcon {

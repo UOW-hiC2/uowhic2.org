@@ -226,7 +226,7 @@ button {
     height: 80%;
 }
 
-video {
+.event-poster {
     height: 90%;
     object-fit: fill;
     border-radius: 50px;
@@ -246,8 +246,12 @@ video {
         margin-bottom: 2vh;
     }
 
-    video {
+    .event-poster{
         height: 60%;
+    }
+
+    .event-p {
+        display: none;
     }
 }
 

@@ -77,19 +77,18 @@ function eventFunc(data) {
             }
 
             tab +=`
-            <div>
+            <div class="event-inner-details">
                 <h2>${event.name}</h2>
                 <h2>${new Date().toLocaleString()}</h2>
-                <br>
                 <h3>${event.about}</h3>
                 <p class="event-p">${event.description}</p>
             `;
 
             console.log(event.links);
-            tab +=`<div>`
+            tab +=`<div class="warp-buttons">`
             for (let link of event.links) {
                 tab +=`
-                    <button class="inner" onclick="window.location.href='${link.uri}'">
+                    <button class="inner event-button" onclick="window.location.href='${link.uri}'">
                         <h3>${link.name}</h3>
                     </button>
                 `

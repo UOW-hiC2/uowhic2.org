@@ -80,7 +80,7 @@
             </div>
         </div>
 
-        <div id="fix-about" 
+        <div tag="about" id="fix-about" 
              style="cursor: pointer;" 
              onclick="buttonClick('about')"  
              class="ann-none fix-info">
@@ -89,7 +89,7 @@
             </div>
         </div>
 
-        <div id="fix-contact" 
+        <div tag="contact" id="fix-contact" 
              style="cursor: pointer;" 
              onclick="buttonClick('contact')" 
              class="ann-none fix-info">
@@ -99,11 +99,11 @@
             </div>
         </div>
 
-        <div id="fix-event" 
+        <div tag="events" id="fix-events" 
              style="cursor: pointer;" 
-             onclick="buttonClick('event')" 
+             onclick="buttonClick('events')" 
              class="ann-none fix-info">
-            <div id="ann-event" class="ann info-contain info-event transform">
+            <div id="ann-events" class="ann info-contain info-events transform">
                 <!-- <h1>Test</h1> -->
             </div>
         </div>
@@ -115,6 +115,14 @@
 
     <script text = "type/javascript">
         document.getElementById("footer").innerHTML = `<p>Copyright © ${new Date().getFullYear()} UoW's Hub for the Institute of Cybersecurity and Cryptography | UNICLUB (uowhic2.org). All Rights Reserved</p>`
+        
+        if (window.location.hash == "#about") {
+            buttonClick('about');
+        }else if (window.location.hash == "#contact") {
+            buttonClick('contact');
+        }else if (window.location.hash == "#events") {
+            buttonClick('events');
+        }
     </script>
 
 </html>

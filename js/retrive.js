@@ -78,7 +78,7 @@ function eventFunc(data) {
     //     `;
     // }
     // Setting innerHTML as tab variable
-    document.getElementById("ann-event").innerHTML = tab;
+    document.getElementById("ann-events").innerHTML = tab;
 }
 
 // Calling that async function

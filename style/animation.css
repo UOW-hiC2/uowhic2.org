@@ -1,0 +1,12 @@
+.move-container {
+    margin-right: 50%;
+}
+
+.ann-none {
+    pointer-events: none;
+}
+
+.ann {
+    opacity:0;
+    margin-right: 100%;
+}

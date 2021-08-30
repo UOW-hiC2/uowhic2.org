@@ -146,6 +146,15 @@ footer {
     margin-top: 3%;
 }
 
+.inner:hover {
+    background-color: white;
+    color: black;
+}
+
+button {
+    color: white;
+}
+
 .paddingIcon {
     height: 50px;
     width: 50px;

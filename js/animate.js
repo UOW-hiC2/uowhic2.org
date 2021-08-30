@@ -1,5 +1,5 @@
 function buttonClick(loc) {
-    console.log(loc)
+    // console.log(loc)
     var el0 = document.getElementById("fix-"+loc);
     el0.classList.toggle('ann-none');
 

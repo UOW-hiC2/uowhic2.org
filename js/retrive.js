@@ -11,7 +11,7 @@ async function getapi(url, show) {
     
     // Storing data in form of JSON
     var data = await response.json();
-    console.log(data);
+    // console.log(data);
 
     show(data);
 }
@@ -39,11 +39,45 @@ function social(data) {
 }
 
 function about(data) {
-    console.log("lol");
+    let tab = `<h1>About Us</h1>`;
+    
+    // Loop to access all rows 
+    // for (let social of data.socials) {
+    //     tab +=  
+    //     `
+    //     <div class="inner" style="cursor: pointer;" onclick="window.location='${social.link}';">
+    //         <div class="paddingIcon">
+    //             <image src="${social.icon}">
+    //         </div>
+    //         <span class="clearOnMobile">
+    //             <h3>${social.name}</h3>
+    //         </span>
+    //     </div>
+    //     `;
+    // }
+    // Setting innerHTML as tab variable
+    document.getElementById("ann-about").innerHTML = tab;
 }
 
 function eventFunc(data) {
-    console.log("lol");
+    let tab = `<h1>Events</h1>`;
+    
+    // Loop to access all rows 
+    // for (let social of data.socials) {
+    //     tab +=  
+    //     `
+    //     <div class="inner" style="cursor: pointer;" onclick="window.location='${social.link}';">
+    //         <div class="paddingIcon">
+    //             <image src="${social.icon}">
+    //         </div>
+    //         <span class="clearOnMobile">
+    //             <h3>${social.name}</h3>
+    //         </span>
+    //     </div>
+    //     `;
+    // }
+    // Setting innerHTML as tab variable
+    document.getElementById("ann-event").innerHTML = tab;
 }
 
 // Calling that async function

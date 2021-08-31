@@ -1,38 +1,50 @@
 {
-    "about" : {
-        "details" : "University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography. The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. This Hub is for UOW students and running by UOW students.",
-        "division" : {
-            "name" : "Institute of Cybersecurity and Cryptology",
-            "link" : "https://www.uow.edu.au/engineering-information-sciences/research/institute-cybersecurity-cryptology/"
+    "events" : [
+        {
+            "name" : "Q/A with Industry Professionals",
+            "about" : "Introduction to UoW hiC2 and a QnA with Google, Amazon, & Vimy regarding CyberSecurity, Cryptography and It's Job Opportunity",
+            "description" : "Under supported by the Institute of Cybersecurity and Cryptography (iC2) and Uniclubs-SAF, the Hub for the Institute of Cybersecurity and Cryptography (hiC2) will organize a Webinar - Cybersecurity Career - Q&A with Industry Professionals. The primary purpose of this webinar is to have an opportunity for students to interact with experts, the people in charge of cybersecurity programs from Google, AWS, and VIMY, with different sectors from Manager, Technical, to Academia. You will listen to the stories from real people and a real career in cybersecurity.",
+            "link" : "https://uowhic2.org/event",
+			"links" : [
+                {
+                    "name" : "Zoom Link",
+                    "uri" : "https://uowhic2.org/event"
+                },
+                {
+                    "name" : "GCal",
+                    "uri" : "https://calendar.google.com/event?action=TEMPLATE&tmeid=NjNycTN2NW9uNDYwZjJqMGhlbjQzcTczYmEgaXZhbi5zdXJhdG5vQG0&tmsrc=ivan.suratno%40gmail.com"
+                },
+                {
+                    "name" : "ICS Calender",
+                    "uri" : "/file/1-calendar-event.ics"
+                },
+                {
+                    "name" : "Facebook Event",
+                    "uri" : "https://fb.me/e/Gb5SRNUj"
+                }
+            ],
+            "poster" : "https://clubs.uow.edu.au/wp-content/uploads/2021/08/poster.jpg",
+            "startTime" : "2021-09-02T07:00:00.000Z",
+            "endTime" : "2021-09-02T08:00:00.000Z",
+            "schedulled" : true
         },
-        "timeline" : [
-            {
-                "event" : "Founded",
-                "date" : "April 2021",
-                "description" : ""
-            }
-        ],
-        "advisers" : [
-            {
-                "name" : "Prof. Ngoc Thuy Le"
-            },
-            {
-                "name" : "Dr. Pairat Thorncharoensri"
-            }
-        ],
-        "committee" : [
-            {
-                "name" : "Oscar Rodgers"
-            },
-            {
-                "name" : "Ivan Ezechial Suratno"
-            },
-            {
-                "name" : "Chrisy Mathews"
-            },
-            {
-                "name" : "Aayushi Kumar"
-            }
-        ]
-    }
+        {
+            "name" : "Capture the Flag!",
+            "about" : "",
+            "link" : "",
+            "poster": "",
+            "startTime" : "TBA",
+            "endTime" : "TBA",
+            "schedulled" : false
+        },
+        {
+            "name" : "IGM!",
+            "about" : "Inauguration meeting",
+            "link" : "",
+            "poster": "",
+            "startTime" : "2021-04-02T07:00:00.000Z",
+            "endTime" : "2021-04-02T08:00:00.000Z",
+            "schedulled" : true
+        }
+    ]
 }

@@ -272,95 +272,6 @@ button {
     background-color: black;
 }
 
-@media only screen and (max-width: 1000px) {
-    .clearOnMobile {
-        display: none;
-    }
-
-    .info-contain {
-        height: 96%;
-        padding: 1vh;
-
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-    }
-
-    .event-poster{
-        height: 60%;
-    }
-
-    .event-inner-details {
-        min-width: 200px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .inner {
-        padding: 2%;
-        border-radius: 25px;
-        justify-content: center;
-    }
-
-    .padding {
-        width: calc(100%/3);
-    }
-
-    .main {
-        margin: 5%;
-    }
-
-    .hiC2 {
-        height: 18vh;
-        width: 18vh;
-    }
-
-    p {
-        font-size: 12px;
-    }
-
-    .social-media {
-        bottom: 15%;
-    }
-
-    .event-poster {
-        height: 40%;
-    }
-
-    .con-events {
-        flex-wrap: wrap;
-    }
-
-    .event-inner-details {
-        min-width: 100px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    h1 {
-        font-size: 15px;
-    }
-
-    h2 {
-        font-size: 12px;
-    }
-
-    h3 {
-        font-size: 10px;
-    }
-
-    p {
-        font-size: 8px;
-    }
-
-    .main {
-        margin: 10%;
-    }
-
-    .event-inner-details {
-        min-width: 50px;
-    }
-}
-
 @keyframes fadeIn{
     from{
         opacity: 0;
@@ -464,3 +375,94 @@ div.scroll {
     position: relative;
     padding: 2%;
   }
+
+
+  @media only screen and (max-width: 1000px) {
+    .clearOnMobile {
+        display: none;
+    }
+
+    .info-contain {
+        height: 96%;
+        padding: 1vh;
+
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .event-poster{
+        height: 60%;
+    }
+
+    .event-inner-details {
+        min-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .inner {
+        padding: 2%;
+        border-radius: 25px;
+        justify-content: center;
+    }
+
+    .padding {
+        width: calc(100%/3);
+    }
+
+    .main {
+        margin: 5%;
+    }
+
+    .hiC2 {
+        height: 18vh;
+        width: 18vh;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .social-media {
+        bottom: 15%;
+    }
+
+    .event-poster {
+        height: 40%;
+    }
+
+    .con-events {
+        flex-wrap: wrap;
+    }
+
+    .event-inner-details {
+        min-width: 100px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .main {
+        margin: 10%;
+    }
+
+    .event-inner-details {
+        min-width: 50px;
+    }
+}

@@ -72,8 +72,8 @@ function eventFunc(data) {
         if(event.schedulled === true){
             var sdate= new Date(event.startTime);
             var edate= new Date(event.endTime);
-            console.log(time);
-            console.log(edate);
+            // console.log(time);
+            // console.log(edate);
 
             if(edate>time)
             {
@@ -82,8 +82,18 @@ function eventFunc(data) {
                 <div class="eventTab">
 
                 <h1>${event.name}</h1>
+
+                <div class="wrap-button">
+                `
+                for(let link of event.links) {
+                    tab += 
+                    `<button class="event-button" onclick="window.open('${link.uri}')"><h2>${link.name}</h2></button>`
+                }
+
                 
-                <button style="border-radius:10px;" onclick="window.open('${event.link}')"><h2 style="color:black;">Attend</h2></button>
+                tab += 
+                `
+                </div>
                 <h4>${sdate}</h4>
                 <h3>${event.about}</h3>
                 <h4>${event.description}</h4>
@@ -107,8 +117,8 @@ function eventFunc(data) {
         if(event.schedulled === true){
             var sdate= new Date(event.startTime);
             var edate= new Date(event.endTime);
-            console.log(time);
-            console.log(edate);
+            // console.log(time);
+            // console.log(edate);
 
             if(edate<time)
             {
@@ -134,7 +144,7 @@ function eventFunc(data) {
 
     tab+=`</div>`;
     // Setting innerHTML as tab variable
-    document.getElementById("ann-event").innerHTML = tab;
+    document.getElementById("ann-events").innerHTML = tab;
 }
 
 // Calling that async function

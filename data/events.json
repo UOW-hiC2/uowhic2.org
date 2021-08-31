@@ -7,11 +7,11 @@
             "link" : "https://uowhic2.org/event",
 			"links" : [
                 {
-                    "name" : "Zoom Link",
+                    "name" : "Attend",
                     "uri" : "https://uowhic2.org/event"
                 },
                 {
-                    "name" : "GCal",
+                    "name" : "Googel Calendar",
                     "uri" : "https://calendar.google.com/event?action=TEMPLATE&tmeid=NjNycTN2NW9uNDYwZjJqMGhlbjQzcTczYmEgaXZhbi5zdXJhdG5vQG0&tmsrc=ivan.suratno%40gmail.com"
                 },
                 {

@@ -5,6 +5,7 @@ function buttonClick(loc) {
 
     var el1 = document.getElementById("ann-"+loc);
     el1.classList.toggle('ann');
+    el1.classList.toggle('in');
 
     // window.location.hash = "/";
 };

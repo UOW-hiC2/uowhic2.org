@@ -72,8 +72,11 @@ function eventFunc(data) {
         if(event.schedulled === true){
             var sdate= new Date(event.startTime);
             var edate= new Date(event.endTime);
+<<<<<<< HEAD
             // console.log(time);
             // console.log(edate);
+=======
+>>>>>>> 0aa723fd41784c74ff782f7d0d2a8e47140b914e
 
             if(edate>time)
             {
@@ -117,8 +120,6 @@ function eventFunc(data) {
         if(event.schedulled === true){
             var sdate= new Date(event.startTime);
             var edate= new Date(event.endTime);
-            // console.log(time);
-            // console.log(edate);
 
             if(edate<time)
             {

@@ -9,4 +9,11 @@
 .ann {
     opacity:0;
     margin-right: 100%;
+    animation: colorchangeout 2s;
+}
+
+.in {
+
+    animation: colorchangein 2s;
+
 }

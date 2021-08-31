@@ -39,7 +39,9 @@ function social(data) {
 }
 
 function about(data) {
-    // let tab = `<h1>About Us</h1>`;
+    let objAbout = data.about;
+
+    let tab = `<h2>${objAbout.details}</h2>`;
     // tab += `<div><h2>Coming Soon</h2></div>`
     // Loop to access all rows 
     // for (let social of data.socials) {
@@ -56,7 +58,7 @@ function about(data) {
     //     `;
     // }
     // Setting innerHTML as tab variable
-    // document.getElementById("ann-about").innerHTML = tab;
+    document.getElementById("con-about").innerHTML = tab;
 }
 
 function eventFunc(data) {

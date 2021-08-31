@@ -217,6 +217,15 @@ button {
     
 }
 
+.con-about {
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .con-events {
     display: flex;
     justify-content:center;

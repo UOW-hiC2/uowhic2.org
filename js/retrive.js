@@ -39,10 +39,8 @@ function social(data) {
 }
 
 function about(data) {
-    let objAbout = data.about;
-
-    let tab = `<h2>${objAbout.details}</h2>`;
-    // tab += `<div><h2>Coming Soon</h2></div>`
+    let tab = `<h1>About Us</h1>`;
+    tab += `<div class="scroll"><h2>Coming Soon</h2></div>`;
     // Loop to access all rows 
     // for (let social of data.socials) {
     //     tab +=  
@@ -58,50 +56,83 @@ function about(data) {
     //     `;
     // }
     // Setting innerHTML as tab variable
-    document.getElementById("con-about").innerHTML = tab;
+    document.getElementById("ann-about").innerHTML = tab;
 }
 
 function eventFunc(data) {
-    let tab = ``
+
+    var time = new Date();
+
+    let tab = `<div class="scroll">`;
+    tab += `<h1>Events</h1>`;
     
-    // Loop to access all rows 
+    // Loop to access all rows for Upcoming Events
     for (let event of data.events) {
-        if (event.schedulled) {
-            let fileExtention = event.poster.split('.').pop();
-            if (["mp4"].includes(fileExtention)) {
-                tab += `
-                    <video autoplay loop class="event-poster" src="${event.poster}" type="video/mp4"></video>
-                `
-            } else {
-                tab += `
-                    <img class="event-poster" src="${event.poster}"/>
-                `
-            }
+        
+        if(event.schedulled === true){
+            var sdate= new Date(event.startTime);
+            var edate= new Date(event.endTime);
+            console.log(time);
+            console.log(edate);
 
-            tab +=`
-            <div class="event-inner-details">
-                <h2>${event.name}</h2>
-                <h2>${new Date(event["start-time"]).toLocaleString()}</h2>
+            if(edate>time)
+            {
+                tab +=  
+                `
+                <div class="eventTab">
+
+                <h1>${event.name}</h1>
+                
+                <button style="border-radius:10px;" onclick="window.open('${event.link}')"><h2 style="color:black;">Attend</h2></button>
+                <h4>${sdate}</h4>
                 <h3>${event.about}</h3>
-                <p class="event-p">${event.description}</p>
-            `;
+                
+                <img style="position: relative; height:auto; width: 50vw;" src='${event.poster}' onerror="this.style.display='none'"/>
+                    
+                </div><br>
+                `;
 
-            // console.log(event.links);
-            tab +=`<div class="warp-buttons">`
-            for (let link of event.links) {
-                tab +=`
-                <button class="inner event-button" onclick="window.location.href='${link.uri}'">
-                    <h3>${link.name}</h3>
-                </button>
-                `
             }
-            tab += `</div>`
-            tab += `</div>`
         }
+         
     }
 
+
+    // Loop to access all rows for past evets
+    
+    tab += `<h1>Past events</h1>`;
+    for (let event of data.events) {
+        
+        if(event.schedulled === true){
+            var sdate= new Date(event.startTime);
+            var edate= new Date(event.endTime);
+            console.log(time);
+            console.log(edate);
+
+            if(edate<time)
+            {
+                tab +=  
+                `
+                <div class="eventTab">
+
+                <h1>${event.name}</h1>
+                
+                <h4>${sdate}</h4>
+                <h3>${event.about}</h3>
+                <img style="position: relative; height:auto; width: 50vw;" src='${event.poster}' onerror="this.style.display='none'"/>
+
+                </div><br>
+                `;
+
+            }
+        }
+         
+    }
+    
+
+    tab+=`</div>`;
     // Setting innerHTML as tab variable
-    document.getElementById("con-events").innerHTML = tab;
+    document.getElementById("ann-event").innerHTML = tab;
 }
 
 // Calling that async function

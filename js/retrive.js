@@ -72,8 +72,6 @@ function eventFunc(data) {
         if(event.schedulled === true){
             var sdate= new Date(event.startTime);
             var edate= new Date(event.endTime);
-            console.log(time);
-            console.log(edate);
 
             if(edate>time)
             {
@@ -107,8 +105,6 @@ function eventFunc(data) {
         if(event.schedulled === true){
             var sdate= new Date(event.startTime);
             var edate= new Date(event.endTime);
-            console.log(time);
-            console.log(edate);
 
             if(edate<time)
             {
@@ -134,7 +130,7 @@ function eventFunc(data) {
 
     tab+=`</div>`;
     // Setting innerHTML as tab variable
-    document.getElementById("ann-event").innerHTML = tab;
+    document.getElementById("ann-events").innerHTML = tab;
 }
 
 // Calling that async function

@@ -369,3 +369,85 @@ button {
 .hiC2 {
     animation: fadeIn 1s; 
 }
+
+
+.social-media {
+    bottom: 15%;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        height: 0%;
+        width: 0%;
+    }
+
+    to{
+        opacity: 1;
+        height: 23vh;
+        width: 23vh;
+    }
+}
+
+
+.hiC2 {
+    animation: fadeIn 1s; 
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 255, 106); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%, rgb(8, 160, 53) 100%);
+     
+  }
+
+div.scroll {
+    word-wrap: break-word;
+    width: inherit;
+    height: 80%;
+    overflow: auto;
+    overflow-x: hidden;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-right: 1%;
+    border-radius: 10px;
+  }
+
+
+  @keyframes colorchangeout {
+    0% {
+      
+      color: white;
+    }
+    
+    100% {
+      
+        color: rgb(8, 160, 53);
+    }
+  }
+
+  @keyframes colorchangein {
+    50% {
+      
+      color:rgb(8, 160, 53);
+    }
+    
+    100% {
+      
+        color:white;
+    }
+  }
+
+  .eventTab {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+  }

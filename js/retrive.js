@@ -86,6 +86,7 @@ function eventFunc(data) {
                 <button style="border-radius:10px;" onclick="window.open('${event.link}')"><h2 style="color:black;">Attend</h2></button>
                 <h4>${sdate}</h4>
                 <h3>${event.about}</h3>
+                <h4>${event.description}</h4>
                 
                 <img style="position: relative; height:auto; width: 50vw;" src='${event.poster}' onerror="this.style.display='none'"/>
                     
@@ -119,6 +120,7 @@ function eventFunc(data) {
                 
                 <h4>${sdate}</h4>
                 <h3>${event.about}</h3>
+                <h4>${event.description}</h4>
                 <img style="position: relative; height:auto; width: 50vw;" src='${event.poster}' onerror="this.style.display='none'"/>
 
                 </div><br>

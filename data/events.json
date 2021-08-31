@@ -4,7 +4,8 @@
             "name" : "Q/A with Industry Professionals",
             "about" : "Introduction to UoW hiC2 and a QnA with Google, Amazon, & Vimy regarding CyberSecurity, Cryptography and It's Job Opportunity",
             "description" : "Under supported by the Institute of Cybersecurity and Cryptography (iC2) and Uniclubs-SAF, the Hub for the Institute of Cybersecurity and Cryptography (hiC2) will organize a Webinar - Cybersecurity Career - Q&A with Industry Professionals. The primary purpose of this webinar is to have an opportunity for students to interact with experts, the people in charge of cybersecurity programs from Google, AWS, and VIMY, with different sectors from Manager, Technical, to Academia. You will listen to the stories from real people and a real career in cybersecurity.",
-            "links" : [
+            "link" : "https://uowhic2.org/event",
+			"links" : [
                 {
                     "name" : "Zoom Link",
                     "uri" : "https://uowhic2.org/event"
@@ -22,9 +23,9 @@
                     "uri" : "https://fb.me/e/Gb5SRNUj"
                 }
             ],
-            "poster" : "https://uowhic2.org/file/1-poster-event.mp4",
-            "start-time" : 1630566000000,
-            "end-time" : 1630569600000,
+            "poster" : "https://clubs.uow.edu.au/wp-content/uploads/2021/08/poster.jpg",
+            "startTime" : "2021-09-02T07:00:00.000Z",
+            "endTime" : "2021-09-02T08:00:00.000Z",
             "schedulled" : true
         },
         {
@@ -32,9 +33,18 @@
             "about" : "",
             "link" : "",
             "poster": "",
-            "start-time" : "TBA",
-            "end-time" : "TBA",
+            "startTime" : "TBA",
+            "endTime" : "TBA",
             "schedulled" : false
+        },
+        {
+            "name" : "IGM!",
+            "about" : "Inauguration meeting",
+            "link" : "",
+            "poster": "",
+            "startTime" : "2021-04-02T07:00:00.000Z",
+            "endTime" : "2021-04-02T08:00:00.000Z",
+            "schedulled" : true
         }
     ]
 }

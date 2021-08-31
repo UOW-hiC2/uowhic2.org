@@ -16,6 +16,10 @@
                 {
                     "name" : "ICS Calender",
                     "uri" : "/file/1-calendar-event.ics"
+                },
+                {
+                    "name" : "Facebook Event",
+                    "uri" : "https://fb.me/e/Gb5SRNUj"
                 }
             ],
             "poster" : "https://uowhic2.org/file/1-poster-event.mp4",

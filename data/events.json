@@ -26,7 +26,7 @@
                     "uri" : "https://clubs.uow.edu.au/events/cyber-security-career-qa/"
                 }
             ],
-            "poster" : "https://clubs.uow.edu.au/wp-content/uploads/2021/08/poster.jpg",
+            "poster" : "/file/1-poster-event.webp",
             "startTime" : "2021-09-02T07:00:00.000Z",
             "endTime" : "2021-09-02T08:00:00.000Z",
             "schedulled" : true

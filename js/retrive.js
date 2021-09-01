@@ -123,12 +123,24 @@ function eventFunc(data) {
                 <div class="eventTab">
 
                 <h1>${event.name}</h1>
+
+                <div class="wrap-button">
+                `
+                for(let link of event.links) {
+                    tab += 
+                    `<button class="event-button" onclick="window.open('${link.uri}')"><h2>${link.name}</h2></button>`
+                }
+
                 
+                tab += 
+                `
+                </div>
                 <h4>${sdate}</h4>
                 <h3>${event.about}</h3>
                 <h4>${event.description}</h4>
+                
                 <img style="position: relative; height:auto; width: 50vw;" src='${event.poster}' onerror="this.style.display='none'"/>
-
+                    
                 </div><br>
                 `;
 

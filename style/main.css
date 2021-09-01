@@ -7,7 +7,7 @@ body {
     color: white;
     text-align: center;
 
-    background-image: url("/image/uow-background.jpg");
+    background-image: url("/image/uow-background.webp");
 
     /* Height */
     height: 100vh;
@@ -259,7 +259,7 @@ button {
 }
 
 .event-button {
-    background-color: white;
+    background-color: whitew;
     color: black;
     margin-right: 2%;
     border-radius: 10px;

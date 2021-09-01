@@ -108,7 +108,7 @@ function eventFunc(data) {
             <h3>${event.about}</h3>
             <h4>${event.description}</h4>
             
-            <img style="position: relative; height:auto; width: 50vw;" src='${event.poster}' onerror="this.style.display='none'"/>
+            <img class="poster" src='${event.poster}' onerror="this.style.display='none'"/>
                 
             </div><br>
             `;

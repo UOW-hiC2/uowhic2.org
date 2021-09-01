@@ -342,42 +342,47 @@ div.scroll {
     border-radius: 10px;
     
     text-align: left;
-  }
+}
+
+img.poster {
+    position: relative;
+    height: 60vh;
+    width: auto;
+}
 
 
-  @keyframes colorchangeout {
+
+@keyframes colorchangeout {
     0% {
-      
-      color: white;
+        color: white;
     }
-    
+
     100% {
-      
         color: rgb(8, 160, 53);
     }
-  }
+}
 
-  @keyframes colorchangein {
+@keyframes colorchangein {
     50% {
-      
-      color:rgb(8, 160, 53);
+        
+        color:rgb(8, 160, 53);
     }
-    
+
     100% {
-      
+        
         color:white;
     }
-  }
+}
 
-  .eventTab {
+.eventTab {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
     position: relative;
     padding: 2%;
-  }
+}
 
 
-  @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     .clearOnMobile {
         display: none;
     }
@@ -437,6 +442,12 @@ div.scroll {
 
     .event-inner-details {
         min-width: 100px;
+    }
+
+    img.poster {
+        position: relative;
+        height: auto;
+        width: 60vw;
     }
 }
 

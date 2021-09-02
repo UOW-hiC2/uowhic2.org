@@ -78,13 +78,23 @@
                 document.getElementById("status").innerHTML = `<h2>Coming Soon</h2>`;
             }
 
-            if (window.location.pathname == "/about") {
-                window.location.replace("/#about");
-            }else if (window.location.pathname == "/contact") {
-                window.location.replace("/#contact")
-            }else if (window.location.pathname == "/events") {
-                window.location.replace("/#events");
+            async function getapi(url, show) {
+    
+                // Storing response
+                const response = await fetch(url);
+                
+                // Storing data in form of JSON
+                var data = await response.json();
+                // console.log(data);
+
+                show(data);
             }
+
+            getapi("/data/redirect.json", (data) => {
+                if (window.location.pathname in data){
+                    window.location.replace(data[window.location.pathname]);
+                }
+            });
         </script>
 
         <script type = "text/javascript">

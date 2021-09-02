@@ -6,20 +6,20 @@
                 "inputs" : [
                     {   "id": "2005620554",
                         "name" : "name",
-                        "description":"Enter Name",
+                        "description":"Your Name",
                         "type" : "text",
                         "required":true,
-                        "placeholder":"Name",
+                        "placeholder":"Full Name",
                         "class":""
                     },
 
                     {
                         "id": "1045781291",
                         "name" : "email",
-                        "description":"Enter Email",
+                        "description":"Email",
                         "type" : "email",
                         "required":true,
-                        "placeholder":"email",
+                        "placeholder":"example@example.com",
                         "class":""
                         
 
@@ -28,20 +28,20 @@
                     {
                         "id":"1166974658",
                         "name" : "number",
-                        "description":"Enter Phone Number",
+                        "description":"Phone Number",
                         "type" : "text",
                         "required":false,
-                        "placeholder":"Number",
+                        "placeholder":"xxxx",
                         "class":""
 
                     },
                     {
                         "id": "839337160",
                         "name" : "question",
-                        "description":"Reason for contact",
+                        "description":"Message",
                         "type" : "text",
                         "required":true,
-                        "placeholder":"  Type your question here...",
+                        "placeholder":"  Type your message here...",
                         "tag":"textarea"
 
                     }

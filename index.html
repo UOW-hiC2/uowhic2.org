@@ -94,9 +94,7 @@
             </div>
         </div>
 
-        <div tag="contact" id="fix-contact" 
-             style="cursor: pointer;" 
-             onclick="buttonClick('contact')" 
+        <div tag="contact" id="fix-contact"
              class="ann-none fix-info">
             <div id="ann-contact" class="ann info-contain transform">
                 <h1>Contact Us</h1>
@@ -131,6 +129,15 @@
         }else if (window.location.hash == "#events") {
             buttonClick('events');
         }
+    </script>
+    
+     <script>
+    document.getElementById("ann-contact").onsubmit = e => {
+        e.target.submit();
+        e.target.reset();
+        buttonClick('contact');
+        return false;
+    }
     </script>
 
 </html>

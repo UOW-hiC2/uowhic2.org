@@ -23,6 +23,12 @@
             "icon" : "/icon/discord.svg",
             "link" : "https://discord.com/channels/836599505645338625",
             "notes" : "Register via Email or Contact Us"
+        },
+        {
+            "name" : "Youtube",
+            "icon" : "/logo/youtube.svg",
+            "link" : "https://www.youtube.com/channel/UCu0Gt8qiE4h4tVCX8hNIrGQ",
+            "notes" : "Subscribe to our Youtube channel"
         }
     ] 
 }

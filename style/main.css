@@ -535,9 +535,9 @@ form {
         float:right;
         background:rgb(0, 255, 106);
         height:4vh;
-        width:15vw;
-        border-radius:15px;
-        font-size: 2vw;
+        width:10vw;
+        border-radius:12px;
+        font-size: 1.2vw;
         color: white;
         cursor: pointer;
         border-style: none;
@@ -545,5 +545,5 @@ form {
     }
 
     #ann-contact .scroll{
-        height: 90%;
+        height: 80%;
     }

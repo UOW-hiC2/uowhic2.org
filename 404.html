@@ -21,6 +21,20 @@
         <link rel = "icon" type = "image/png" href = "/logo/hic2.png">
         <link rel = "stylesheet" href="/style/main.css">
 
+        <script type = "text/javascript">
+            async function getapi(url, show) {
+                const response = await fetch(url);
+                var data = await response.json();
+                show(data);
+            }
+            
+            getapi("/data/redirect.json", (data) => {
+                if (window.location.pathname in data){
+                    window.location.replace(data[window.location.pathname]);
+                }
+            });
+        </script>
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-GL1PJ5VJF9"></script>
         <script>
@@ -77,27 +91,6 @@
             if (window.location.pathname == "/coming-soon.html") {
                 document.getElementById("status").innerHTML = `<h2>Coming Soon</h2>`;
             }
-
-            async function getapi(url, show) {
-    
-                // Storing response
-                const response = await fetch(url);
-                
-                // Storing data in form of JSON
-                var data = await response.json();
-                // console.log(data);
-
-                show(data);
-            }
-
-            getapi("/data/redirect.json", (data) => {
-                if (window.location.pathname in data){
-                    window.location.replace(data[window.location.pathname]);
-                }
-            });
-        </script>
-
-        <script type = "text/javascript">
             var a = 10;
             setInterval(() => {
                 a = a - 1;

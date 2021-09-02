@@ -534,11 +534,16 @@ form {
         margin-right:5vw;
         float:right;
         background:rgb(0, 255, 106);
-        height:5vh;
-        width:5vw;
+        height:4vh;
+        width:15vw;
         border-radius:15px;
-        font-size: 2vh;
+        font-size: 2vw;
         color: white;
         cursor: pointer;
         border-style: none;
+        z-index: 5;
+    }
+
+    #ann-contact .scroll{
+        height: 90%;
     }

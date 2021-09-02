@@ -1,0 +1,51 @@
+{
+    "form" : {
+                "id": "contactForm",
+                "heading" : "Contact us",
+                "link" : "https://docs.google.com/forms/d/e/1FAIpQLSfMhd-deWVDT2tKlN9GiAmvKR-rk1TM4UJlHSgrvOoLPGBKJg/formResponse",
+                "inputs" : [
+                    {   "id": "2005620554",
+                        "name" : "name",
+                        "description":"Enter Name",
+                        "type" : "text",
+                        "required":true,
+                        "placeholder":"Name",
+                        "class":""
+                    },
+
+                    {
+                        "id": "1045781291",
+                        "name" : "email",
+                        "description":"Enter Email",
+                        "type" : "email",
+                        "required":true,
+                        "placeholder":"email",
+                        "class":""
+                        
+
+                    },
+
+                    {
+                        "id":"1166974658",
+                        "name" : "number",
+                        "description":"Enter Phone Number",
+                        "type" : "text",
+                        "required":false,
+                        "placeholder":"Number",
+                        "class":""
+
+                    },
+                    {
+                        "id": "839337160",
+                        "name" : "question",
+                        "description":"Reason for contact",
+                        "type" : "text",
+                        "required":true,
+                        "placeholder":"  Type your question here...",
+                        "tag":"textarea"
+
+                    }
+
+                ]
+        }
+}

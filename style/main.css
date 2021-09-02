@@ -394,7 +394,7 @@ form {
 }
 
 input, textarea {
-    width:calc(100%/2 - 2em - 4%);
+    width:calc(100%/2 - 2em);
     background: transparent;
     padding: 1em;
     border: none;
@@ -404,16 +404,18 @@ input, textarea {
     font-weight: 500;
     transition: all 0.2s ease-in-out;
     margin-top:1%;
-
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 textarea{
     height: 15vh;
-    width: calc(100% - 2em - 4%);
+    width: calc(100% - 2em);
 }
-.required:before {
+
+.required {
+    content: " ";
+}
+
+.required:after {
     content:"*";
     color: red;
 }
@@ -509,7 +511,7 @@ textarea{
     }
 
     input {
-        width: calc(100% - 2em - 4%);
+        width: calc(100% - 2em);
     }
 }
 

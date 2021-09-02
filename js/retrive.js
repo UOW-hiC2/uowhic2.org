@@ -146,8 +146,8 @@ function contactFunc(data) {
 
          tab +=  
          `
-            <div class="${x}">
-            <label for="${input.id}">${input.description}</label><br>
+            <div class="in">
+            <label class = "${x}" for="${input.id}">${input.description}</label><br>
             <${y} type="${input.type}" id="${input.id}" name="entry.${input.id}"  placeholder="${input.placeholder}" ${x}></${y}>
             </div><br>
             
@@ -156,7 +156,7 @@ function contactFunc(data) {
 
      
      tab+= `
-     <input style="background: white; width:96%; color: black; cursor: pointer;" type="submit" value="Submit">
+     <input style="background: white; width:100%; color: black; cursor: pointer;" type="submit" value="Submit">
      <form/"> </div>
      <iframe style="display: none;" name="consume"></iframe>
      </div>

@@ -27,7 +27,7 @@
                         "description":"Phone Number",
                         "type" : "text",
                         "required":false,
-                        "placeholder":"+9112-345-6789",
+                        "placeholder":"+61-400-123-456",
                         "class":""
                     },
                     {

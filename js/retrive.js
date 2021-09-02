@@ -2,6 +2,7 @@
 const social_url = "/data/socials.json";
 const about_url = "/data/about.json";
 const event_url = "/data/events.json";
+const contact_url = "/data/contact.json";
   
 // Defining async function
 async function getapi(url, show) {
@@ -127,7 +128,42 @@ function eventFunc(data) {
     document.getElementById("ann-events").innerHTML = tab;
 }
 
+function contactFunc(data) {
+   
+    let tab = `<button class="back" onclick="buttonClick('contact')" >Go Back</button>
+            <h2>${data.form.heading}</h2>
+            <div class="scroll">
+            <form action="${data.form.link}" method="POST" target="consume" id="${data.form.id}">`;
+    // Loop to access all inputs 
+    for (let input of data.form.inputs) {
+
+        var x = '';
+        var y='';
+        (input.required ? x='required' : x='');
+        (input.tag!="textarea"? y='input' : y='textarea');
+
+         tab +=  
+         `
+            <div class="${x}">
+            <label for="${input.id}">${input.description}</label><br>
+            <${y} type="${input.type}" id="${input.id}" name="entry.${input.id}"  placeholder="${input.placeholder}" ${x}></${y}>
+            </div><br>
+            
+        `;
+     }
+
+     
+     tab+= `
+     <input style="background: white;width:100%; color: black; cursor: pointer;" type="submit" value="Submit">
+     <form/"> </div>
+     <iframe style="display: none;" name="consume"></iframe>
+     `;
+     // Setting innerHTML as tab variable
+    document.getElementById("ann-contact").innerHTML = tab;
+}
+
 // Calling that async function
 getapi(social_url, social);
 getapi(about_url, about);
 getapi(event_url, eventFunc);
+getapi(contact_url, contactFunc);

@@ -12,7 +12,6 @@
                         "placeholder":"Full Name",
                         "class":""
                     },
-
                     {
                         "id": "1045781291",
                         "name" : "email",
@@ -21,10 +20,7 @@
                         "required":true,
                         "placeholder":"example@example.com",
                         "class":""
-                        
-
                     },
-
                     {
                         "id":"1166974658",
                         "name" : "number",
@@ -33,7 +29,6 @@
                         "required":false,
                         "placeholder":"xxxx",
                         "class":""
-
                     },
                     {
                         "id": "839337160",
@@ -43,9 +38,7 @@
                         "required":true,
                         "placeholder":"  Type your message here...",
                         "tag":"textarea"
-
                     }
-
                 ]
         }
 }

@@ -15,7 +15,7 @@
                     {
                         "id": "1045781291",
                         "name" : "email",
-                        "description":"Email",
+                        "description":"Your Email",
                         "type" : "email",
                         "required":true,
                         "placeholder":"example@example.com",

@@ -156,7 +156,7 @@ function contactFunc(data) {
 
      
      tab+= `
-     <input style="background: white;width:100%; color: black; cursor: pointer;" type="submit" value="Submit">
+     <input style="background: white; width:96%; color: black; cursor: pointer;" type="submit" value="Submit">
      <form/"> </div>
      <iframe style="display: none;" name="consume"></iframe>
      </div>

@@ -382,6 +382,13 @@ img.poster {
     padding: 2%;
 }
 
+@media only screen and (max-width: 1600px) {
+    div.inner {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
+
 
 @media only screen and (max-width: 1000px) {
     .clearOnMobile {

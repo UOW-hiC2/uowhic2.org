@@ -80,7 +80,7 @@ function eventFunc(data) {
             let newtab = ``
             newtab +=  
             `
-            <div class="eventTab">
+            <div class="tab">
 
             <h1>${event.name}</h1>
 
@@ -130,10 +130,12 @@ function eventFunc(data) {
 
 function contactFunc(data) {
    
-    let tab = `<button class="back" onclick="buttonClick('contact')" >Go Back</button>
-            <h2>${data.form.heading}</h2>
-            <div class="scroll">
-            <form action="${data.form.link}" method="POST" target="consume" id="${data.form.id}">`;
+    let tab = `
+        <div class="scroll">
+        <button class="back" onclick="buttonClick('contact')" >Go Back</button>
+        <h1>${data.form.heading}</h1>
+        <div class="tab">
+        <form action="${data.form.link}" method="POST" target="consume" id="${data.form.id}">`;
     // Loop to access all inputs 
     for (let input of data.form.inputs) {
 
@@ -157,6 +159,7 @@ function contactFunc(data) {
      <input style="background: white;width:100%; color: black; cursor: pointer;" type="submit" value="Submit">
      <form/"> </div>
      <iframe style="display: none;" name="consume"></iframe>
+     </div>
      `;
      // Setting innerHTML as tab variable
     document.getElementById("ann-contact").innerHTML = tab;

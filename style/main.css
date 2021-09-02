@@ -375,7 +375,7 @@ img.poster {
     }
 }
 
-.eventTab {
+.tab {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
     position: relative;
@@ -531,7 +531,6 @@ form {
     }
 
     .back{
-        margin-right:5vw;
         float:right;
         background:rgb(0, 255, 106);
         height:4vh;
@@ -542,8 +541,4 @@ form {
         cursor: pointer;
         border-style: none;
         z-index: 5;
-    }
-
-    #ann-contact .scroll{
-        height: 80%;
     }

@@ -25,7 +25,7 @@
                         "id":"1166974658",
                         "name" : "number",
                         "description":"Phone Number",
-                        "type" : "text",
+                        "type" : "tel",
                         "required":false,
                         "placeholder":"+61-400-123-456",
                         "class":""

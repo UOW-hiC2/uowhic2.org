@@ -20,6 +20,7 @@
     
         <link rel = "icon" type = "image/png" href = "/logo/hic2.png">
         <link rel = "stylesheet" href="/style/main.css">
+        <link rel = "stylesheet" href="/style/snackbar.css">
 
         <!-- Retriving Social Media List -->
         <script src="/js/retrive.js"></script>
@@ -114,6 +115,7 @@
         </div>
 
         <div id="social" class="info social-media"></div>
+        <div id="snackbar"></div>
     </body>
     
     <footer id="footer"></footer>
@@ -134,7 +136,17 @@
         document.getElementById("ann-contact").onsubmit = e => {
             e.target.submit();
             e.target.reset();
-            buttonClick('contact');
+
+            var x = document.getElementById("snackbar");
+            x.innerHTML = "Thanks for submitting your contact info!"
+            x.className = "show";
+
+            setTimeout(() => { 
+                x.className = x.className.replace("show", ""); 
+            }, 3000);
+
+            buttonClick('contact')
+
             return false;
         }
     </script>

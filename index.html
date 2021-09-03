@@ -24,7 +24,6 @@
         <!-- Retriving Social Media List -->
         <script src="/js/retrive.js"></script>
         <script src="/js/animate.js"></script>
-        <script src="/js/console.js"></script>
         
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-GL1PJ5VJF9"></script>
@@ -132,12 +131,14 @@
     </script>
     
      <script>
-    document.getElementById("ann-contact").onsubmit = e => {
-        e.target.submit();
-        e.target.reset();
-        buttonClick('contact');
-        return false;
-    }
+        document.getElementById("ann-contact").onsubmit = e => {
+            e.target.submit();
+            e.target.reset();
+            buttonClick('contact');
+            return false;
+        }
     </script>
+
+    <script src="/js/console.js"></script>
 
 </html>

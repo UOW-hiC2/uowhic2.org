@@ -132,7 +132,7 @@ function contactFunc(data) {
    
     let tab = `
         <div class="scroll">
-        <button class="back" onclick="buttonClick('contact')" >Go Back</button>
+        <button class="back" onclick="buttonClick('contact')" ><img src="/icon/back.svg"></button>
         <h1>${data.form.heading}</h1>
         <div class="tab">
         <form action="${data.form.link}" method="POST" target="consume" id="${data.form.id}">`;

@@ -7,5 +7,5 @@ function buttonClick(loc) {
     el1.classList.toggle('ann');
     el1.classList.toggle('in');
 
-    window.location.hash = loc;
+    // window.location.hash = loc;
 };

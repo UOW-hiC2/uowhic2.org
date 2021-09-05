@@ -40,23 +40,11 @@ function social(data) {
 }
 
 function about(data) {
-    let tab = `<h1>About Us</h1>`;
-    tab += `<div class="scroll"><h2>Coming Soon</h2></div>`;
-    // Loop to access all rows 
-    // for (let social of data.socials) {
-    //     tab +=  
-    //     `
-    //     <div class="inner" style="cursor: pointer;" onclick="window.location='${social.link}';">
-    //         <div class="paddingIcon">
-    //             <image src="${social.icon}">
-    //         </div>
-    //         <span class="clearOnMobile">
-    //             <h3>${social.name}</h3>
-    //         </span>
-    //     </div>
-    //     `;
-    // }
-    // Setting innerHTML as tab variable
+    let tab = ``;
+    tab += `<div class="scroll">`
+    tab += `<h1>About Us</h1>`
+
+    tab += `</div>`;
     document.getElementById("ann-about").innerHTML = tab;
 }
 

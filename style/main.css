@@ -397,6 +397,17 @@ textarea{
     width: 100%;
 }
 
+.design-point {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.design-tab {
+    width: 44%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 @media only screen and (max-width: 1600px) {
     div.inner {
         padding-right: 2%;

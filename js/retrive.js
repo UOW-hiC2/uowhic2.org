@@ -44,14 +44,23 @@ function about(data) {
     tab += `<div class="scroll">
             <h1>About Us</h1>
             <div class="tab">
-            `
-    tab += `<div class="design-flex">`
+            `;
+
+    // main about us part
+    tab += `<div class="design-flex">`;
     tab += `<div class="hiC2Icon icon">
             <img src="${data.about.logo}"/>
-            </div>`
-    tab += `<h1 class="follow">${data.about.name}</h1>`
+            </div>`;
+    tab += `<h1 class="follow">${data.about.name}</h1>`;
+    tab += `</div>`;
+    tab += `<p>${data.about.details}</p>`;
+    tab += `<div class="design-flex design-point">`
+    // points in about
+    for (point in data.about.points) {
+        tab += `<div class="tab design-tab">`;
+        tab += `</div>`;
+    }
     tab += `</div>`
-    tab += `<p>${data.about.details}</p>`
 
     tab += `</div>
             </div>`;

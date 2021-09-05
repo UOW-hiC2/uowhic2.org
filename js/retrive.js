@@ -39,31 +39,50 @@ function social(data) {
     document.getElementById("social").innerHTML = tab;
 }
 
+function reTab(logo, title, cls, type){
+    let reTab = ``;
+    reTab += `<div class="design-flex">
+    <div class="${cls}">
+    <img src="${logo}"/>
+    </div>`;
+    reTab += `<${type} class="follow">${title}</${type}>`;
+    reTab += `</div>`;
+    return reTab;
+}
+
 function about(data) {
     let tab = ``;
     tab += `<div class="scroll">
             <h1>About Us</h1>
             <div class="tab">
             `;
-
     // main about us part
-    tab += `<div class="design-flex">`;
-    tab += `<div class="hiC2Icon icon">
-            <img src="${data.about.logo}"/>
-            </div>`;
-    tab += `<h1 class="follow">${data.about.name}</h1>`;
-    tab += `</div>`;
+    tab += reTab(data.about.logo, data.about.name, "hiC2Icon icon", "h1");
     tab += `<p>${data.about.details}</p>`;
-    tab += `<div class="design-flex design-point">`
+
     // points in about
-    for (point in data.about.points) {
-        tab += `<div class="tab design-tab">`;
+    if (data.about.points.length > 0) {
+        tab += `<div class="design-flex design-point">`
+        for (let point of data.about.points) {
+            tab += `<div class="tab design-tab">`;
+            tab += reTab(point.icon, point.title, "showIcon icon", "h3");
+            tab += `<p>${point.description}</p>`
+            tab += `</div>`;
+        }
         tab += `</div>`;
     }
-    tab += `</div>`
-
-    tab += `</div>
-            </div>`;
+    // sponsor
+    if (data.about.sponsors.length > 0) {
+        tab += `<h1>Sponsors</h1>`
+        tab += `<div class="design-flex design-point">`
+        for (let sponsor of data.about.sponsors) {
+            tab += `<div class="sponsorLogo">
+                        <img src="${sponsor.logo}"/>
+                    </div>`
+        }
+        tab += `</div>`;
+    }
+    tab += `</div></div>`;
     document.getElementById("ann-about").innerHTML = tab;
 }
 

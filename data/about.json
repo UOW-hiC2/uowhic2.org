@@ -5,25 +5,20 @@
         "details" : "The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. Being an incredibly important field that is ever evolving we aim to provide a bridge between stafs students and industry experts to encourage foster and develop practical cyber security skills within our university's community. This Hub is for UOW students and running by UOW students.",
         "points" : [
             {
-                "title": "You don’t have to be studying an IT degree",
-                "description" : "We don’t believe in limiting ourselves to one discipline. With the modern reach of technology, cyber security literacy should be in every person’s toolbox.",
-                "icon" : ""
+                "title": "Anyone is Welcome",
+                "description" : "Cybersecurity and cryptography should not have a limit in terms of who. That's why we welcome you to learn and share information in cybersecurity and cryptography in our hub. Here is where guided learning and understanding can happen.",
+                "icon" : "/icon/school.svg"
             },
             {
-                "title": "Our members share knowledge",
-                "description" : "Our members are those who want to protect themselves, want to learn how hackers think, and want to know the difference between something which is secure and which is not.",
-                "icon" : ""
+                "title": "A Place to Share Information",
+                "description" : "Cybersecurity and cryptography are growing spaces in this ever-connected world. In this hub, we could bridge that information by sharing new and updated information.  We would learn from implying, discussion, webinar, and executing in real-world activities.",
+                "icon" : "/icon/book.svg"
             }
         ],
         "sponsors" : [
             {
-                "name": "",
-                "image" : "",
-                "description": ""
-            },
-            {
-                "name": "",
-                "image" : "",
+                "name": "Student Service & Amenities Fee",
+                "logo" : "/logo/SSAF.svg",
                 "description": ""
             }
         ],

@@ -126,6 +126,24 @@ button {
 
     margin-right: 2%;
     flex-shrink: 0;
+    padding: 1vh;
+}
+
+.showIcon {
+    height: 3.5vh;
+    width: 3.5vh;
+
+    margin-right: 3%;
+    flex-shrink: 0;
+
+    padding: 1vh;
+}
+
+.sponsorLogo {
+    background-color: white;
+    height: 5vh;
+    padding: 2%;
+    border-radius: 20px;
 }
 
 .content {
@@ -398,12 +416,13 @@ textarea{
 }
 
 .design-point {
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .design-tab {
     width: 44%;
+    min-height: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
 }

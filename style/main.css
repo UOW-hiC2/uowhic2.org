@@ -146,6 +146,16 @@ button {
     border-radius: 20px;
 }
 
+div.imgLogo {
+    margin: 1%;
+}
+
+img.imgLogo {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+}
+
 .content {
     display: table;
     margin: auto;
@@ -418,6 +428,11 @@ textarea{
 .design-point {
     flex-flow: row wrap;
     justify-content: space-between;
+}
+
+.design-committees {
+    flex-flow: row wrap;
+    justify-content: start;
 }
 
 .design-tab {

@@ -82,6 +82,20 @@ function about(data) {
         }
         tab += `</div>`;
     }
+
+    // commitee
+    tab += `<h1>Committee</h1>`
+    tab += `<div class="design-flex design-committees">`
+    for (let committee of data.about.committees) {
+        if (committee.active == true) {
+            for (let com of committee.committee) {
+                tab += `<div class="imgLogo">
+                            <img class="imgLogo" src="${com.image}"/>
+                        </div>`
+            }
+        }
+    }
+    tab += `</div>`
     tab += `</div></div>`;
     document.getElementById("ann-about").innerHTML = tab;
 }

@@ -1,6 +1,10 @@
 {
     "about" : {
-        "details" : "University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography. The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. This Hub is for UOW students and running by UOW students.",
+        "name" : "UOW hiC²",
+        "details" : "University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography. The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. Being an incredibly important field that is ever evolving we aim to provide a bridge between stafs students and industry experts to encourage foster and develop practical cyber security skills within our university's community. This Hub is for UOW students and running by UOW students.",
+        "points" : [
+
+        ],
         "division" : {
             "name" : "Institute of Cybersecurity and Cryptology",
             "link" : "https://www.uow.edu.au/engineering-information-sciences/research/institute-cybersecurity-cryptology/"
@@ -26,21 +30,24 @@
                 "year": "2021",
                 "committee" : [
                     {
-                        
                         "name" : "Oscar Rodgers",
-                        "position" : "President"
+                        "position" : "President",
+                        "image" : ""
                     },
                     {
                         "name" : "Ivan Ezechial Suratno",
-                        "position" : "Vice President"
+                        "position" : "Vice President",
+                        "image" : ""
                     },
                     {
                         "name" : "Chrisy Mathews",
-                        "position": "..."
+                        "position": "...",
+                        "image" : ""
                     },
                     {
                         "name" : "Aayushi Kumar",
-                        "position": "..."
+                        "position": "...",
+                        "image" : ""
                     }
                 ]
             },

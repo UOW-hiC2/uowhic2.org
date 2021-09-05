@@ -107,13 +107,21 @@ button {
     padding: 2%;
 }
 
-.hiC2 {
+.icon {
     background-color: 	rgb(245, 245, 245, 1);
-    height: 23vh;
-    width: 23vh;
 
     border-radius: 50px;
     box-shadow: 3px 3px 4px #999;
+}
+
+.hiC2 {
+    height: 23vh;
+    width: 23vh;
+}
+
+.hiC2Icon {
+    height: 5vh;
+    width: 5vh;
 }
 
 .content {

@@ -63,12 +63,17 @@
                     },
                     {
                         "name" : "Chrisy Mathews",
-                        "position": "...",
+                        "position": "Secretary",
                         "image" : ""
                     },
                     {
                         "name" : "Aayushi Kumar",
-                        "position": "...",
+                        "position": "Treasurer",
+                        "image" : ""
+                    },
+                    {
+                        "name" : "George Kyriakides",
+                        "position": "Program Coordinator",
                         "image" : ""
                     }
                 ]

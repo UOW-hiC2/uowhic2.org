@@ -107,13 +107,22 @@ button {
     padding: 2%;
 }
 
-.hiC2 {
+.icon {
     background-color: 	rgb(245, 245, 245, 1);
-    height: 23vh;
-    width: 23vh;
 
     border-radius: 50px;
     box-shadow: 3px 3px 4px #999;
+}
+
+.hiC2 {
+    height: 23vh;
+    width: 23vh;
+    animation: fadeIn 1s;
+}
+
+.hiC2Icon {
+    height: 5vh;
+    width: 5vh;
 }
 
 .content {
@@ -126,14 +135,15 @@ button {
 
 .info {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    width: 100vw;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .social-media {
     position: fixed;
+    left: 0%;
     bottom: 20%;
     height: 20px;
 }
@@ -158,7 +168,7 @@ button {
 .paddingIcon {
     height: 50px;
     width: 50px;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .floatBackBtn {
@@ -213,47 +223,6 @@ button {
     flex-wrap: wrap;
 }
 
-.con-about {
-    display: flex;
-    justify-content:center;
-    align-items: center; 
-
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.con-events {
-    display: flex;
-    justify-content:center;
-    align-items: center; 
-
-    text-align: justify;
-
-    height: 80%;
-
-    padding-right: 5%;
-    padding-left: 5%;
-}
-
-.event-poster {
-    height: 90%;
-    object-fit: fill;
-    border-radius: 50px;
-    margin: 5%;
-}
-
-.event-inner-details {
-    min-width: 300px;
-}
-
-.warp-buttons {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    flex-wrap: wrap;
-}
-
 .event-button {
     background-color: white;
     color: black;
@@ -283,12 +252,6 @@ button {
     }
 }
 
-
-.hiC2 {
-    animation: fadeIn 1s; 
-}
-
-
 .social-media {
     bottom: 15%;
 }
@@ -305,11 +268,6 @@ button {
         height: 23vh;
         width: 23vh;
     }
-}
-
-
-.hiC2 {
-    animation: fadeIn 1s; 
 }
 
 ::-webkit-scrollbar {
@@ -455,22 +413,12 @@ textarea{
         margin-bottom: 2vh;
     }
 
-    .event-poster{
-        height: 60%;
-    }
-
-    .event-inner-details {
-        min-width: 200px;
+    footer {
+        bottom: 5%;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .inner {
-        padding: 2%;
-        border-radius: 25px;
-        justify-content: center;
-    }
-
     .padding {
         width: calc(100%/3);
     }
@@ -484,24 +432,21 @@ textarea{
         width: 18vh;
     }
 
+    h1 {
+        font-size: 2.5vh;
+    }
+
+    h2 {
+        font-size: 2vh;
+    }
+
+
     h4 {
         font-size: 12px;
     }
 
     .social-media {
         bottom: 15%;
-    }
-
-    .event-poster {
-        height: 40%;
-    }
-
-    .con-events {
-        flex-wrap: wrap;
-    }
-
-    .event-inner-details {
-        min-width: 100px;
     }
 
     img.poster {
@@ -516,6 +461,10 @@ textarea{
 
     .info-contain {
         padding: 5%;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
 
@@ -543,9 +492,5 @@ textarea{
 
     .main {
         margin: 10%;
-    }
-
-    .event-inner-details {
-        min-width: 50px;
     }
 }

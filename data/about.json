@@ -1,9 +1,31 @@
 {
     "about" : {
-        "name" : "UOW hiC²",
-        "details" : "University of Wollongong's Hub for the Institute of Cybersecurity and Cryptography. The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. Being an incredibly important field that is ever evolving we aim to provide a bridge between stafs students and industry experts to encourage foster and develop practical cyber security skills within our university's community. This Hub is for UOW students and running by UOW students.",
+        "name" : "UOW's Hub for the Institute of Cybersecurity and Cryptography (hiC²)",
+        "logo" : "/logo/hic2.svg",
+        "details" : "The primary purpose of this Hub is to build the right place for students to learn, exchange, and apply knowledge of cybersecurity and cryptography. Being an incredibly important field that is ever evolving we aim to provide a bridge between stafs students and industry experts to encourage foster and develop practical cyber security skills within our university's community. This Hub is for UOW students and running by UOW students.",
         "points" : [
-
+            {
+                "title": "",
+                "description" : "",
+                "icon" : ""
+            },
+            {
+                "title": "",
+                "description" : "",
+                "icon" : ""
+            }
+        ],
+        "sponsors" : [
+            {
+                "name": "",
+                "image" : "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "image" : "",
+                "description": ""
+            }
         ],
         "division" : {
             "name" : "Institute of Cybersecurity and Cryptology",

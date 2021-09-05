@@ -92,6 +92,11 @@
                         "image" : "/image/photo/Aayushi.png"
                     },
                     {
+                        "name" : "Ali Husnain",
+                        "position": "Facilitator",
+                        "image" : "/image/photo/Ali.png"
+                    },
+                    {
                         "name" : "George Kyriakides",
                         "position": "Program Coordinator",
                         "image" : "/image/photo/George.png"

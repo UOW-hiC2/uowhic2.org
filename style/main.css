@@ -123,6 +123,9 @@ button {
 .hiC2Icon {
     height: 5vh;
     width: 5vh;
+
+    margin-right: 2%;
+    flex-shrink: 0;
 }
 
 .content {
@@ -135,7 +138,7 @@ button {
 
 .info {
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -369,10 +372,6 @@ textarea{
     width: calc(100% - 2em);
 }
 
-.required {
-    content: " ";
-}
-
 .required:after {
     content:"*";
     color: red;
@@ -390,6 +389,12 @@ textarea{
     border-style: none;
 
     z-index: 5;
+}
+
+.design-flex {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1600px) {

@@ -45,11 +45,11 @@ function about(data) {
             <h1>About Us</h1>
             <div class="tab">
             `
-    tab += `<div>`
+    tab += `<div class="design-flex">`
     tab += `<div class="hiC2Icon icon">
             <img src="${data.about.logo}"/>
             </div>`
-    tab += `<h1>${data.about.name}</h1>`
+    tab += `<h1 class="follow">${data.about.name}</h1>`
     tab += `</div>`
     tab += `<p>${data.about.details}</p>`
 

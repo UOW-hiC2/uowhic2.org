@@ -135,14 +135,15 @@ button {
 
 .info {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    width: 100vw;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .social-media {
     position: fixed;
+    left: 0%;
     bottom: 20%;
     height: 20px;
 }
@@ -167,7 +168,7 @@ button {
 .paddingIcon {
     height: 50px;
     width: 50px;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .floatBackBtn {
@@ -411,15 +412,13 @@ textarea{
         margin-top: 2vh;
         margin-bottom: 2vh;
     }
+
+    footer {
+        bottom: 5%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .inner {
-        padding: 2%;
-        border-radius: 25px;
-        justify-content: center;
-    }
-
     .padding {
         width: calc(100%/3);
     }
@@ -432,6 +431,15 @@ textarea{
         height: 18vh;
         width: 18vh;
     }
+
+    h1 {
+        font-size: 2.5vh;
+    }
+
+    h2 {
+        font-size: 2vh;
+    }
+
 
     h4 {
         font-size: 12px;
@@ -453,6 +461,10 @@ textarea{
 
     .info-contain {
         padding: 5%;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
 

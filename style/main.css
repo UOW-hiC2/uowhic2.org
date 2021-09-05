@@ -117,6 +117,7 @@ button {
 .hiC2 {
     height: 23vh;
     width: 23vh;
+    animation: fadeIn 1s;
 }
 
 .hiC2Icon {
@@ -221,47 +222,6 @@ button {
     flex-wrap: wrap;
 }
 
-.con-about {
-    display: flex;
-    justify-content:center;
-    align-items: center; 
-
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.con-events {
-    display: flex;
-    justify-content:center;
-    align-items: center; 
-
-    text-align: justify;
-
-    height: 80%;
-
-    padding-right: 5%;
-    padding-left: 5%;
-}
-
-.event-poster {
-    height: 90%;
-    object-fit: fill;
-    border-radius: 50px;
-    margin: 5%;
-}
-
-.event-inner-details {
-    min-width: 300px;
-}
-
-.warp-buttons {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    flex-wrap: wrap;
-}
-
 .event-button {
     background-color: white;
     color: black;
@@ -291,12 +251,6 @@ button {
     }
 }
 
-
-.hiC2 {
-    animation: fadeIn 1s; 
-}
-
-
 .social-media {
     bottom: 15%;
 }
@@ -313,11 +267,6 @@ button {
         height: 23vh;
         width: 23vh;
     }
-}
-
-
-.hiC2 {
-    animation: fadeIn 1s; 
 }
 
 ::-webkit-scrollbar {
@@ -462,14 +411,6 @@ textarea{
         margin-top: 2vh;
         margin-bottom: 2vh;
     }
-
-    .event-poster{
-        height: 60%;
-    }
-
-    .event-inner-details {
-        min-width: 200px;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -498,18 +439,6 @@ textarea{
 
     .social-media {
         bottom: 15%;
-    }
-
-    .event-poster {
-        height: 40%;
-    }
-
-    .con-events {
-        flex-wrap: wrap;
-    }
-
-    .event-inner-details {
-        min-width: 100px;
     }
 
     img.poster {
@@ -551,9 +480,5 @@ textarea{
 
     .main {
         margin: 10%;
-    }
-
-    .event-inner-details {
-        min-width: 50px;
     }
 }

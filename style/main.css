@@ -148,6 +148,8 @@ button {
 
 div.imgLogo {
     margin: 1%;
+    max-width: 125px;
+    max-height: 200px;
 }
 
 img.imgLogo {

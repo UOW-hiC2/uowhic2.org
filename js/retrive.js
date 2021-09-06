@@ -88,12 +88,16 @@ function about(data) {
     
     for (let committee of data.about.committees) {
         if (committee.active == true) {
-            tab += `<h2><i>Year ${committee.year}</i></h2>`
+            tab += `<h2><i>Committee of ${committee.year}</i></h2>`
             tab += `<div class="design-flex design-committees">`
             for (let com of committee.committee) {
-                tab += `<div align="center" class="imgLogo">
-                            <img class="imgLogo" src="${com.image}"/>
-                            <h4>${com.name.split(' ')[0]}
+                tab += `<div align="center" class="imgLogo">`
+                if (com.image != "") {
+                    tab += `<img class="imgLogo" src="${com.image}"/>`
+                } else {
+                    tab += `<img class="imgLogo" src="/logo/hic2.png"/>`
+                }
+                tab += `<h4>${com.name.split(' ')[0]}
                             <br>
                             <i>${com.position}</i></h4>
                         </div>`

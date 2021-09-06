@@ -85,17 +85,22 @@ function about(data) {
 
     // commitee
     tab += `<h1>Committee</h1>`
-    tab += `<div class="design-flex design-committees">`
+    
     for (let committee of data.about.committees) {
         if (committee.active == true) {
+            tab += `<h2><i>Year ${committee.year}</i></h2>`
+            tab += `<div class="design-flex design-committees">`
             for (let com of committee.committee) {
-                tab += `<div class="imgLogo">
+                tab += `<div align="center" class="imgLogo">
                             <img class="imgLogo" src="${com.image}"/>
+                            <h4>${com.name.split(' ')[0]}
+                            <br>
+                            <i>${com.position}</i></h4>
                         </div>`
             }
+            tab += `</div>`
         }
     }
-    tab += `</div>`
     tab += `</div></div>`;
     document.getElementById("ann-about").innerHTML = tab;
 }

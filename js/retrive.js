@@ -73,7 +73,7 @@ function about(data) {
     }
     // sponsor
     if (data.about.sponsors.length > 0) {
-        tab += `<h1>Sponsors</h1>`
+        tab += `<h1>Our Sponsors</h1>`
         tab += `<div class="design-flex design-point">`
         for (let sponsor of data.about.sponsors) {
             tab += `<div class="sponsorLogo">
@@ -84,7 +84,7 @@ function about(data) {
     }
 
     // commitee
-    tab += `<h1>Committee</h1>`
+    tab += `<h1>List of Committees</h1>`
     
     for (let committee of data.about.committees) {
         if (committee.active == true) {

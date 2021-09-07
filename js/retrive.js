@@ -83,8 +83,23 @@ function about(data) {
         tab += `</div>`;
     }
 
+    // advisers
+    tab += `<h1>Advisers</h1>`
+    tab += `<div class="design-flex design-committees">`
+    for (let adviser of data.about.advisers) {
+        tab += `<div align="center" class="imgLogo">`
+        if (adviser.image != "") {
+            tab += `<img class="imgLogo" src="${adviser.image}"/>`
+        } else {
+            tab += `<img class="imgLogo" src="/logo/hic2.png"/>`
+        }
+        tab += `<h4>${adviser.name.split(" ")[0]+" "+adviser.name.split(" ")[1]}
+                </div>`
+    }
+    tab += "</div>"
+
     // commitee
-    tab += `<h1>List of Committees</h1>`
+    tab += `<h1>Committees</h1>`
     
     for (let committee of data.about.committees) {
         if (committee.active == true) {
@@ -205,7 +220,7 @@ function contactFunc(data) {
 
      
      tab+= `
-     <input style="background: white; width:100%; color: black; cursor: pointer;" type="submit" value="Submit">
+     <input style="width: 100%;" class="event-button" type="submit" value="Submit">
      <form/"> </div>
      <iframe style="display: none;" name="consume"></iframe>
      </div>

@@ -246,10 +246,10 @@ img.imgLogo {
     border-radius: 50px;
     color: white;
 
-    margin-top: 12.5vh;
-    margin-bottom: 12.5vh;
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
     
-    height: 75%;
+    height: 85%;
 
     padding: 2vh;
 
@@ -403,14 +403,14 @@ textarea{
 }
 
 .required:after {
-    content:"*";
+    content:" *";
     color: red;
 }
 
 .back{
     float:right;
     background:rgb(0, 255, 106);
-    height:4vh;
+    height:3rem;
     width:15vw;
     border-radius:12px;
     font-size: 1.5vh;
@@ -458,7 +458,7 @@ textarea{
     }
 
     .info-contain {
-        height: 90%;
+        height: 95vh;
         padding: 1vh;
 
         margin-top: 2vh;
@@ -521,6 +521,14 @@ textarea{
 
 /* mobile */
 @media only screen and (max-width: 400px) {
+    .tab {
+        margin-top: 1rem;
+    }
+
+    .back {
+        height: 2rem;
+    }
+
     h1 {
         font-size: 15px;
     }

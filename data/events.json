@@ -1,14 +1,23 @@
 {
     "events" : [
         {
-            "name" : "Capture the Flag!",
-            "about" : "",
-            "description" : " ",
-            "links" : [],
-            "poster": "",
-            "startTime" : "TBA",
-            "endTime" : "TBA",
-            "schedulled" : false
+            "name" : "HackTheBox (University CTF 2021) Team UOW hiC²!",
+            "about" : "Capture the Flag Competition, Join as Team hiC²",
+            "description" : "We will be entering a team into Hack The Box’s Uni CTF. The qualifiers are on the 19th-21st of November and is open to anyone. Currently we can only enter teams of up to 10 people, but we can likely make more teams if the demand is there To join the CTF team head over to https://ctf.hackthebox.com/teams and sign up/login and request to join the ‘hiC2’ team. You’ll have to enter your uni email to confirm your student status.",
+            "links" : [
+                {
+                    "name" : "Join the hiC² Team on HTB",
+                    "uri" : "https://ctf.hackthebox.com/uni-ctf-registration"
+                },
+                {
+                    "name" : "About the CTF",
+                    "uri" : "https://www.hackthebox.com/universities/university-ctf-2021"
+                }
+            ],
+            "poster": "https://www.hackthebox.eu/images/landingv3/b2c_ctf/uni_ctf/uni_ctf_2021_OG.png",
+            "startTime" : "2021-11-19T13:00:00.000Z",
+            "endTime" : "2021-11-21T21:00:00.000Z",
+            "schedulled" : true
         },
         {
             "name" : "Q/A with Industry Professionals",

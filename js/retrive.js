@@ -169,7 +169,21 @@ function eventFunc(data) {
             newtab += 
             `
             </div>
-            <h4>${sdate}</h4>
+            
+            `
+            if (sdate.getDate() != edate.getDate()) {
+                newtab += 
+                `
+                <h4>${sdate} - ${edate}<h4>
+                `
+            } else {
+                newtab +=
+                `
+                <h4>${sdate} | ${Math.ceil( Math.abs(edate -sdate) / (1000 * 60 * 60 * 24))} Hour(s)</h4>
+                `
+            }
+            newtab +=
+            `
             <h3>${event.about}</h3>
             <h4>${event.description}</h4>
             

@@ -334,8 +334,8 @@ div.scroll {
 
 img.poster {
     position: relative;
-    height: 60vh;
-    width: auto;
+    height: auto;
+    width: 45%;
 }
 
 

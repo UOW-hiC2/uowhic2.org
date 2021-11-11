@@ -153,7 +153,7 @@ function eventFunc(data) {
             if (edate > time){
                 for(let link of event.links) {
                     newtab += 
-                    `<button class="event-button" onclick="window.open('${link.uri}')"><h2>${link.name}</h2></button>`;
+                    `<button class="event-button" onclick="buttonURI('events', '${link.uri}')"><h2>${link.name}</h2></button>`;
                 }
             }
 
@@ -161,7 +161,7 @@ function eventFunc(data) {
                 if ("recording" in event) {
                     if (event.recording != ""){
                         newtab += 
-                        `<button class="event-button" onclick="window.open('${event.recording}')"><h2>Recording</h2></button>`;
+                        `<button class="event-button" onclick="buttonURI('events', '${event.recording}')"><h2>Recording</h2></button>`;
                     }
                 }
             }

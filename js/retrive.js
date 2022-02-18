@@ -101,8 +101,10 @@ function about(data) {
                        <b style = "width:min-content; background-color: #0077b5; border-radius: 15px;">&nbsp;LinkedIn&nbsp;</b>
                    </a>`
         }
+
+        tab += "</h4> </div>"
     }
-    tab += "</h4> </div> </div>"
+    tab += "</div>"
 
     // commitee
     tab += `<h1>Committees</h1>`
@@ -128,8 +130,9 @@ function about(data) {
                                 <b style = "width:min-content; background-color: #0077b5; border-radius: 15px;">&nbsp;LinkedIn&nbsp;</b>
                            </a>`
                 }
+                tab += `</h4> </div>`
             }
-            tab += `</h4> </div> </div>`
+            tab += `</div>`
         }
     }
     tab += `</div></div>`;

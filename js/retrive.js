@@ -114,8 +114,12 @@ function about(data) {
                 }
                 tab += `<h4>${com.name.split(' ')[0]}
                             <br>
-                            <i>${com.position}</i></h4>
-                        </div>`
+                            <i>${com.position}</i></h4>`
+                        
+                if (com.linkedIn != ""){
+                    tab+= `<br> <a href=${com.linkedIn}>LinkedIn</a>`
+                }
+                tab+= `</div>`
             }
             tab += `</div>`
         }

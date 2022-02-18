@@ -93,10 +93,16 @@ function about(data) {
         } else {
             tab += `<img class="imgLogo" src="/logo/hic2.png"/>`
         }
-        tab += `<h4>${adviser.name.split(" ")[0]+" "+adviser.name.split(" ")[1]}
-                </div>`
+        tab += `<h4>${adviser.name.split(" ")[0]+" "+adviser.name.split(" ")[1]}`
+                
+        if (adviser.linkedIn != ""){
+            tab+= `<br> 
+                   <a href=${adviser.linkedIn}>
+                       <b style = "width:min-content; background-color: #0077b5; border-radius: 15px;">&nbsp;LinkedIn&nbsp;</b>
+                   </a>`
+        }
     }
-    tab += "</div>"
+    tab += "</h4> </div> </div>"
 
     // commitee
     tab += `<h1>Committees</h1>`
@@ -117,11 +123,13 @@ function about(data) {
                             <i>${com.position}</i>`
                         
                 if (com.linkedIn != ""){
-                    tab+= `<br> <a href=${com.linkedIn}><b style = "width:max-content; background-color: #0077b5; border-radius: 15px;">&nbsp;LinkedIn&nbsp;</b></a>`
+                    tab+= `<br> 
+                           <a href=${com.linkedIn}>
+                                <b style = "width:min-content; background-color: #0077b5; border-radius: 15px;">&nbsp;LinkedIn&nbsp;</b>
+                           </a>`
                 }
-                tab+= `</h4></div>`
             }
-            tab += `</div>`
+            tab += `</h4> </div> </div>`
         }
     }
     tab += `</div></div>`;

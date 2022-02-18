@@ -98,7 +98,7 @@ function about(data) {
         if (adviser.linkedIn != ""){
             tab+= `<br> 
                    <a href=${adviser.linkedIn}>
-                       <b style = "width:min-content; background-color: #0077b5; border-radius: 15px;">&nbsp;LinkedIn&nbsp;</b>
+                       <b class="linkedIn">&nbsp;LinkedIn&#9656;&nbsp;</b>
                    </a>`
         }
 
@@ -127,7 +127,7 @@ function about(data) {
                 if (com.linkedIn != ""){
                     tab+= `<br> 
                            <a href=${com.linkedIn}>
-                                <b style = "width:min-content; background-color: #0077b5; border-radius: 15px;">&nbsp;LinkedIn&nbsp;</b>
+                                <b class="linkedIn">&nbsp;LinkedIn&#9656;&nbsp;</b>
                            </a>`
                 }
                 tab += `</h4> </div>`

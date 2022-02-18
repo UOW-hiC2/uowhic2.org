@@ -36,11 +36,13 @@
         "advisers" : [
             {
                 "name" : "Prof. Ngoc Thuy Le",
-                "image" : "/image/photo/Ngoc.png"
+                "image" : "/image/photo/Ngoc.png",
+                "linkedIn" : ""
             },
             {
                 "name" : "Dr. Pairat Thorncharoensri",
-                "image" : "/image/photo/Pairat.png"
+                "image" : "/image/photo/Pairat.png",
+                "linkedIn" : ""
             }
         ],
         "committees" : [
@@ -51,19 +53,23 @@
                     {
                         
                         "name" : "N/A",
-                        "position" : "President"
+                        "position" : "President",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "N/A",
-                        "position" : "Vice President"
+                        "position" : "Vice President",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "N/A",
-                        "position": "..."
+                        "position": "...",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "N/A",
-                        "position": "..."
+                        "position": "...",
+                        "linkedIn" : ""
                     }
                 ]
             },
@@ -74,57 +80,68 @@
                     {
                         "name" : "Oscar Rodgers",
                         "position" : "President",
-                        "image" : "/image/photo/Oscar.png"
+                        "image" : "/image/photo/Oscar.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Ivan Ezechial Suratno",
                         "position" : "Vice President",
-                        "image" : "/image/photo/Ivan.png"
+                        "image" : "/image/photo/Ivan.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Chrisy Mathews",
                         "position": "Secretary",
-                        "image" : "/image/photo/Chrisy.png"
+                        "image" : "/image/photo/Chrisy.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Aayushi Kumar",
                         "position": "Treasurer",
-                        "image" : "/image/photo/Aayushi.png"
+                        "image" : "/image/photo/Aayushi.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Ali Husnain",
                         "position": "Facilitator",
-                        "image" : "/image/photo/Ali.png"
+                        "image" : "/image/photo/Ali.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "George Kyriakides",
                         "position": "Program Coordinator",
-                        "image" : "/image/photo/George.png"
+                        "image" : "/image/photo/George.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Madhav Mukherjee",
                         "position" : "Program Coordinator",
-                        "image" : ""
+                        "image" : "",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Rhythm Adhikari",
                         "position" : "Media Coordinator",
-                        "image" : "/image/photo/Rhythm.png"
+                        "image" : "/image/photo/Rhythm.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Megha Mohan",
                         "position" : "Media Coordinator",
-                        "image" : ""
+                        "image" : "",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Jayson Hintz",
                         "position" : "Events Coordinator",
-                        "image" : ""
+                        "image" : "",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Jacob Cooper",
                         "position" : "Advisory Committee",
-                        "image" : ""
+                        "image" : "",
+                        "linkedIn" : ""
                     }
                 ]
             }

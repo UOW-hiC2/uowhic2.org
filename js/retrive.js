@@ -3,13 +3,13 @@ const social_url = "/data/socials.json";
 const about_url = "/data/about.json";
 const event_url = "/data/events.json";
 const contact_url = "/data/contact.json";
-  
+
 // Defining async function
 async function getapi(url, show) {
-    
+
     // Storing response
     const response = await fetch(url);
-    
+
     // Storing data in form of JSON
     var data = await response.json();
     // console.log(data);
@@ -20,10 +20,10 @@ async function getapi(url, show) {
 // Function to define innerHTML for HTML table
 function social(data) {
     let tab = ``;
-    
-    // Loop to access all rows 
+
+    // Loop to access all rows
     for (let social of data.socials) {
-        tab +=  
+        tab +=
         `
         <div class="inner" style="cursor: pointer;" onclick="window.location='${social.link}';">
             <div class="paddingIcon">
@@ -94,9 +94,9 @@ function about(data) {
             tab += `<img class="imgLogo" src="/logo/hic2.png"/>`
         }
         tab += `<h4>${adviser.name.split(" ")[0]+" "+adviser.name.split(" ")[1]}`
-                
+
         if (adviser.linkedIn != ""){
-            tab+= `<br> 
+            tab+= `<br>
                     <a href=${adviser.linkedIn}>
                         <b class="linked">&nbsp;&nbsp;Linked
                             <div class="linkedIn">&nbsp;in&nbsp;</div>
@@ -110,7 +110,7 @@ function about(data) {
 
     // commitee
     tab += `<h1>Committees</h1>`
-    
+
     for (let committee of data.about.committees) {
         if (committee.active == true) {
             tab += `<h2><i>Committee of ${committee.year}</i></h2>`
@@ -125,9 +125,9 @@ function about(data) {
                 tab += `<h4>${com.name.split(' ')[0]}
                             <br>
                             <i>${com.position}</i>`
-                        
+
                 if (com.linkedIn != ""){
-                    tab+= `<br> 
+                    tab+= `<br>
                            <a href=${com.linkedIn}>
                                 <b class="linked">&nbsp;&nbsp;Linked
                                     <div class="linkedIn">&nbsp;in&nbsp;</div>
@@ -151,17 +151,17 @@ function eventFunc(data) {
     tab += `<h1>Events</h1>`;
 
     pasTab =  `<h1>Past events</h1>`;
-    
+
     // Loop to access all rows for Upcoming Events
     for (let event of data.events) {
-        
+
         if(event.schedulled === true){
             var sdate= new Date(event.startTime);
             var edate= new Date(event.endTime);
 
 
             let newtab = ``
-            newtab +=  
+            newtab +=
             `
             <div class="tab">
 
@@ -171,7 +171,7 @@ function eventFunc(data) {
             `
             if (edate > time){
                 for(let link of event.links) {
-                    newtab += 
+                    newtab +=
                     `<button class="event-button" onclick="buttonURI('events', '${link.uri}')"><h2>${link.name}</h2></button>`;
                 }
             }
@@ -179,35 +179,28 @@ function eventFunc(data) {
             if (edate <= time) {
                 if ("recording" in event) {
                     if (event.recording != ""){
-                        newtab += 
+                        newtab +=
                         `<button class="event-button" onclick="buttonURI('events', '${event.recording}')"><h2>Recording</h2></button>`;
                     }
                 }
             }
-            
-            newtab += 
+
+            newtab +=
             `
             </div>
-            
+
             `
-            if (sdate.getDate() != edate.getDate()) {
-                newtab += 
-                `
-                <h4>${sdate} - ${edate}<h4>
-                `
-            } else {
-                newtab +=
-                `
-                <h4>${sdate} | ${Math.ceil( Math.abs(edate -sdate) / (1000 * 60 * 60 * 24))} Hour(s)</h4>
-                `
-            }
+            newtab +=
+            `
+            <h4>${sdate} - ${edate}<h4>
+            `
             newtab +=
             `
             <h3>${event.about}</h3>
             <h4>${event.description}</h4>
-            
+
             <img class="poster" src='${event.poster}' onerror="this.style.display='none'"/>
-                
+
             </div><br>
             `;
             if(edate>time)
@@ -226,14 +219,14 @@ function eventFunc(data) {
 }
 
 function contactFunc(data) {
-   
+
     let tab = `
         <div class="scroll">
         <button class="back" onclick="buttonClick('contact')" ><img src="/icon/back.svg"></button>
         <h1>${data.form.heading}</h1>
         <div class="tab">
         <form action="${data.form.link}" method="POST" target="consume" id="${data.form.id}">`;
-    // Loop to access all inputs 
+    // Loop to access all inputs
     for (let input of data.form.inputs) {
 
         var x = '';
@@ -241,17 +234,17 @@ function contactFunc(data) {
         (input.required ? x='required' : x='');
         (input.tag!="textarea"? y='input' : y='textarea');
 
-         tab +=  
+         tab +=
          `
             <div class="in">
             <label class = "${x}" for="${input.id}">${input.description}</label><br>
             <${y} type="${input.type}" id="${input.id}" name="entry.${input.id}"  placeholder="${input.placeholder}" ${x}></${y}>
             </div><br>
-            
+
         `;
      }
 
-     
+
      tab+= `
      <input style="width: 100%;" class="event-button" type="submit" value="Submit">
      <form/"> </div>

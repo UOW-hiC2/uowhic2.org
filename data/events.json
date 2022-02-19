@@ -1,6 +1,25 @@
 {
     "events" : [
         {
+            "name" : "UOW hiC² 2022 Campus Meet Up!",
+            "about" : "Let's meet up a hack the box",
+            "description" : "UOW Campus Fest 2022, it's time to meet up.",
+            "links" : [
+              {
+                "name" : "Location in UoW Area 3",
+                "uri" : "https://goo.gl/maps/GSaufGzVYP8BMFbf6"
+              },
+              {
+                "name" : "UoW Campus Fest 2022",
+                "uri" : "https://www.uow.edu.au/events/2022/campus-fest.php"
+              }
+            ],
+            "poster": "https://www.uow.edu.au/assets/contributed/student-services-division/Campus-Fest-Web-Thumbnail.jpg",
+            "startTime" : "2022-02-20T21:00:00.000Z",
+            "endTime" : "2022-02-21T03:00:00.000Z",
+            "schedulled" : true
+        },
+        {
             "name" : "HackTheBox (University CTF 2021) Team UOW hiC²!",
             "about" : "Capture the Flag Competition, Join as Team hiC²",
             "description" : "Hack The Box University CTF 2021 is HERE! Every year Hack The Box gather university students from all over the world to compete in our university CTF, which provides a hands-on learning experience for students of all skill levels! With prizes that give even more learning opportunities! UOw hiC² will be entering a team into Hack The Box’s Uni CTF. The qualifiers are on the 19th-21st of November and is open to anyone. Currently, we can only enter teams of up to 10 people, but we can likely make more teams if the demand is there To join the CTF team head over to https://ctf.hackthebox.com/teams and sign up/login and request to join the ‘hiC2’ team. You’ll have to enter your uni email to confirm your student status.",

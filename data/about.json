@@ -43,6 +43,11 @@
                 "name" : "Dr. Pairat Thorncharoensri",
                 "image" : "/image/photo/Pairat.png",
                 "linkedIn" : "https://www.linkedin.com/in/pairat-thorncharoensri-8419a558/"
+            },
+            {
+                "name" : "Dr. Chau Nguyen",
+                "image" : "/image/photo/ChauNguyen.png",
+                "linkedIn" : "https://www.linkedin.com/in/chau-nguyen-9666a09a/"
             }
         ],
         "committees" : [

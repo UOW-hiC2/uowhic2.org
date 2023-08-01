@@ -35,12 +35,19 @@
         ],
         "advisers" : [
             {
-                "name" : "Prof. Ngoc Thuy Le",
-                "image" : "/image/photo/Ngoc.png"
+                "name" : "Dr. Ngoc Thuy Le",
+                "image" : "/image/photo/Ngoc.png",
+                "linkedIn" : "https://www.linkedin.com/in/ngoc-john-le-b77a87192/"
             },
             {
                 "name" : "Dr. Pairat Thorncharoensri",
-                "image" : "/image/photo/Pairat.png"
+                "image" : "/image/photo/Pairat.png",
+                "linkedIn" : "https://www.linkedin.com/in/pairat-thorncharoensri-8419a558/"
+            },
+            {
+                "name" : "Dr. Chau Nguyen",
+                "image" : "/image/photo/ChauNguyen.png",
+                "linkedIn" : "https://www.linkedin.com/in/chau-nguyen-9666a09a/"
             }
         ],
         "committees" : [
@@ -51,19 +58,23 @@
                     {
                         
                         "name" : "N/A",
-                        "position" : "President"
+                        "position" : "President",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "N/A",
-                        "position" : "Vice President"
+                        "position" : "Vice President",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "N/A",
-                        "position": "..."
+                        "position": "...",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "N/A",
-                        "position": "..."
+                        "position": "...",
+                        "linkedIn" : ""
                     }
                 ]
             },
@@ -74,57 +85,68 @@
                     {
                         "name" : "Oscar Rodgers",
                         "position" : "President",
-                        "image" : "/image/photo/Oscar.png"
+                        "image" : "/image/photo/Oscar.png",
+                        "linkedIn" : "https://www.linkedin.com/in/oscar-rodgers-424b731a6/"
                     },
                     {
                         "name" : "Ivan Ezechial Suratno",
                         "position" : "Vice President",
-                        "image" : "/image/photo/Ivan.png"
+                        "image" : "/image/photo/Ivan.png",
+                        "linkedIn" : "https://www.linkedin.com/in/ezechial/"
                     },
                     {
                         "name" : "Chrisy Mathews",
                         "position": "Secretary",
-                        "image" : "/image/photo/Chrisy.png"
+                        "image" : "/image/photo/Chrisy.png",
+                        "linkedIn" : "https://www.linkedin.com/in/chrisy-mathews/"
                     },
                     {
                         "name" : "Aayushi Kumar",
                         "position": "Treasurer",
-                        "image" : "/image/photo/Aayushi.png"
+                        "image" : "/image/photo/Aayushi.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Ali Husnain",
                         "position": "Facilitator",
-                        "image" : "/image/photo/Ali.png"
+                        "image" : "/image/photo/Ali.png",
+                        "linkedIn" : "https://www.linkedin.com/in/ali-/"
                     },
                     {
                         "name" : "George Kyriakides",
                         "position": "Program Coordinator",
-                        "image" : "/image/photo/George.png"
+                        "image" : "/image/photo/George.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Madhav Mukherjee",
                         "position" : "Program Coordinator",
-                        "image" : ""
+                        "image" : "",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Rhythm Adhikari",
                         "position" : "Media Coordinator",
-                        "image" : "/image/photo/Rhythm.png"
+                        "image" : "/image/photo/Rhythm.png",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Megha Mohan",
                         "position" : "Media Coordinator",
-                        "image" : ""
+                        "image" : "",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Jayson Hintz",
                         "position" : "Events Coordinator",
-                        "image" : ""
+                        "image" : "",
+                        "linkedIn" : ""
                     },
                     {
                         "name" : "Jacob Cooper",
                         "position" : "Advisory Committee",
-                        "image" : ""
+                        "image" : "",
+                        "linkedIn" : ""
                     }
                 ]
             }

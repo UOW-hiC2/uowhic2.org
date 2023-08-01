@@ -92,7 +92,7 @@ button {
 }
 
 .logos {
-    width: 30%;
+    width: 25%;
     height: 100%;
 }
 
@@ -409,7 +409,7 @@ textarea{
 
 .back{
     float:right;
-    background:rgb(0, 255, 106);
+    background:#00ff6a;
     height:3rem;
     width:15vw;
     border-radius:12px;
@@ -442,6 +442,35 @@ textarea{
     min-height: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+.linked {
+    width:min-content;
+    background-color: #0077b5;
+    border-radius: 12px;
+    
+}
+
+.linked:hover {
+    background-color: white;
+    color: #0077b5;
+}
+
+.linked:hover > .linkedIn {
+    background-color: #0077b5;
+    color: white;
+
+}
+
+.linkedIn {
+    display: inline;
+    background-color: white;
+    color: #0077b5;
+    border-radius: 3px;
+}
+
+#ann-about {
+    cursor: default;
 }
 
 @media only screen and (max-width: 1600px) {

@@ -1,5 +1,39 @@
 {
     "events" : [
+	 {
+            "name" : "HiC² Ethical Hacking Journey",
+            "about" : "Four weeks of ethical hacking modules every Monday 6:00 pm - 7:30 pm",
+            "description" : "This journey is designed for everyone from any educational background. It’s an elemental and very fast paced module armoring you with enough knowledge to be declared as a ‘hacker’. You will be learning about the core cybersecurity concepts followed by brief hands-on experience of active & passive information gathering, penetration testing tools, web based attacks and basic vulnerability assessment. So, it doesn't matter who you are but what you will become 🌟",
+            "links" : [
+              {
+                "name" : "Register here",
+                "uri" : "https://forms.gle/r9pjbCB4CSn56g5q8"
+              }
+            ],
+            "poster": "/file/walk.jpg",
+            "startTime" : "2022-08-15T08:00:00.000Z",
+            "endTime" : "2022-09-05T10:00:00.000Z",
+            "schedulled" : true
+        },
+        {
+            "name" : "UOW hiC² 2022 Campus Meet Up!",
+            "about" : "Let's meet up a hack start on",
+            "description" : "UOW Campus Fest 2022, it's time to meet up.",
+            "links" : [
+              {
+                "name" : "Location in UoW Area 3",
+                "uri" : "https://goo.gl/maps/GSaufGzVYP8BMFbf6"
+              },
+              {
+                "name" : "UoW Campus Fest 2022",
+                "uri" : "https://www.uow.edu.au/events/2022/campus-fest.php"
+              }
+            ],
+            "poster": "https://www.uow.edu.au/assets/contributed/student-services-division/Campus-Fest-Web-Thumbnail.jpg",
+            "startTime" : "2022-02-20T21:00:00.000Z",
+            "endTime" : "2022-02-21T03:00:00.000Z",
+            "schedulled" : true
+        },
         {
             "name" : "HackTheBox (University CTF 2021) Team UOW hiC²!",
             "about" : "Capture the Flag Competition, Join as Team hiC²",

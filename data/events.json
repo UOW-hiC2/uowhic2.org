@@ -2,6 +2,21 @@
     "events" : [
 	 {
             "name" : "HiC² Ethical Hacking Journey",
+            "about" : "Eight weeks of ethical hacking modules every Monday 5:30 pm - 7:30 pm",
+            "description" : "This journey is designed for everyone from any educational background. It’s time for you to upgrade your tech skills to be cybersecurity job ready. Ready to learn to hack? We’re hosting weekly Ethical Hacking Journey workshops that we want to see you at. Any people with any level of knowledge are welcome. In these workshops, you’ll learn about the core cybersecurity concepts over 8 weeks, with theoretical knowledge and hands-on experience with practical exercises. 🌟",
+            "links" : [
+              {
+                "name" : "Register here",
+                "uri" : "https://forms.gle/r9pjbCB4CSn56g5q8"
+              }
+            ],
+            "poster": "/file/walk.jpg",
+            "startTime" : "2024-03-04T06:30:00.000Z",
+            "endTime" : "2024-04-29T08:30:00.000Z",
+            "schedulled" : true
+        },
+	{
+            "name" : "HiC² Ethical Hacking Journey",
             "about" : "Four weeks of ethical hacking modules every Monday 6:00 pm - 7:30 pm",
             "description" : "This journey is designed for everyone from any educational background. It’s an elemental and very fast paced module armoring you with enough knowledge to be declared as a ‘hacker’. You will be learning about the core cybersecurity concepts followed by brief hands-on experience of active & passive information gathering, penetration testing tools, web based attacks and basic vulnerability assessment. So, it doesn't matter who you are but what you will become 🌟",
             "links" : [

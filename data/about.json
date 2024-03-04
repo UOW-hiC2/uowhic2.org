@@ -40,11 +40,6 @@
                 "linkedIn" : "https://www.linkedin.com/in/ngoc-john-le-b77a87192/"
             },
             {
-                "name" : "Dr. Pairat Thorncharoensri",
-                "image" : "/image/photo/Pairat.png",
-                "linkedIn" : "https://www.linkedin.com/in/pairat-thorncharoensri-8419a558/"
-            },
-            {
                 "name" : "Dr. Chau Nguyen",
                 "image" : "/image/photo/ChauNguyen.png",
                 "linkedIn" : "https://www.linkedin.com/in/chau-nguyen-9666a09a/"
@@ -52,29 +47,75 @@
         ],
         "committees" : [
             {
+                "active" : true,
+                "year": "2024",
+                "committee" : [
+                    {
+                        "name" : "Ali Husnain",
+                        "position" : "President",
+                        "image" : "/image/photo/ali.jpeg",
+                        "linkedIn" : "https://www.linkedin.com/in/ali-/"
+                    },
+                    {
+                        "name" : "Christy Natalia Jusman",
+                        "position" : "Vice President",
+                        "image" : "/image/photo/christy.jpg",
+                        "linkedIn" : "https://www.linkedin.com/in/christy-natalia-jusman/"
+                    },
+                    {
+                        "name" : "Min Htut Myat",
+                        "position": "Secretary",
+                        "image" : "/image/photo/min.png",
+                        "linkedIn" : "https://www.linkedin.com/in/min-htut-myat/"
+                    },
+                    {
+                        "name" : "Ernest Teh",
+                        "position": "Secretary",
+                        "image" : "/image/photo/ernest.png",
+                        "linkedIn" : "https://www.linkedin.com/in/ernest-teh-85669b282/"
+                    },
+                    {
+                        "name" : "Georgia Lee",
+                        "position" : "Media Coordinator",
+                        "image" : "/image/photo/geo.png",
+                        "linkedIn" : "https://www.linkedin.com/in/georgia-lee1/"
+                    },
+                    {
+                        "name" : "Giang Tran",
+                        "position" : "Communications Coordinator",
+                        "image" : "",
+                        "linkedIn" : ""
+                    },
+                    {
+                        "name" : "Trung Nguyen",
+                        "position": "Events Coordinator",
+                        "image" : "/image/photo/trung.png",
+                        "linkedIn" : "https://www.linkedin.com/in/trungnt2910/"
+                    },
+                    {
+                        "name" : "Qunbber Haider Mirza",
+                        "position" : "Socail Media Coordinator",
+                        "image" : "/image/photo/mirza.jpeg",
+                        "linkedIn" : "https://www.linkedin.com/in/qunbber-haider-mirza-6203799a/"
+                    },
+                    {
+                        "name" : "Nabeel Badran",
+                        "position": "Treasurer",
+                        "image" : "/image/photo/nabeel.png",
+                        "linkedIn" : "https://www.linkedin.com/in/nabeelbadran/"
+                    }
+                ]
+            },
+            {
                 "active" : false,
-                "year": "2022",
+                "year": "2022-2023",
                 "committee" : [
                     {
                         
-                        "name" : "N/A",
-                        "position" : "President",
-                        "linkedIn" : ""
-                    },
-                    {
-                        "name" : "N/A",
-                        "position" : "Vice President",
-                        "linkedIn" : ""
-                    },
-                    {
-                        "name" : "N/A",
-                        "position": "...",
-                        "linkedIn" : ""
-                    },
-                    {
-                        "name" : "N/A",
-                        "position": "...",
-                        "linkedIn" : ""
+                        "name" : "b42a6d93d796915222f6ffb2ffdd6137d93c1cdb",
+                        "position" : "All in one",
+                        "image" : "",
+                        "linkedIn" : "6ac8080b675cf12a09e15d1bf0c74264488ff36d"
                     }
                 ]
             },
